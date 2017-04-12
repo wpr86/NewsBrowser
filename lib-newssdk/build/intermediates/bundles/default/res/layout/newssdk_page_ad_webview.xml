@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/adwebviewpage_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.qihoo360.newssdk.ui.common.CommonTitleBar
+        android:id="@+id/adwebviewpage_newstitlebar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:id="@+id/adwebviewpage_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff" >
+
+        <com.qihoo360.newssdk.ui.common.CommonWebView
+            android:id="@+id/adwebviewpage_newswebview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+        </com.qihoo360.newssdk.ui.common.CommonWebView>
+
+        <ProgressBar
+            android:id="@+id/adwebviewpage_pb_progress"
+            style="@style/ProgressBar_WebView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:progress="0" />
+
+        <include
+            android:id="@+id/adwebviewpage_newswebview_error"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            layout="@layout/newssdk_layout_net_error_or_nodata" />
+    </RelativeLayout>
+</LinearLayout>

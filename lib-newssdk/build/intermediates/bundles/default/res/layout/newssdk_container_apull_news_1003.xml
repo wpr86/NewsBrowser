@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/apull_news_layout_1003"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="13dp"
+    android:paddingLeft="@dimen/cantiner_padding_left"
+    android:paddingRight="@dimen/cantiner_padding_right"
+    android:paddingTop="12dp" >
+        
+    <TextView
+        android:id="@+id/apull_news_title_1003"
+        style="@style/NewsTitle"
+        android:singleLine="true"
+        android:ellipsize="end" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:paddingTop="5dp" >
+
+        <ImageView
+            android:id="@+id/apull_news_image_1003A"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:scaleType="centerCrop" />
+
+        <ImageView
+            android:id="@+id/apull_news_image_1003B"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="3dp"
+            android:layout_weight="1"
+            android:scaleType="centerCrop" />
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:id="@+id/apull_news_image_1003C"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:scaleType="centerCrop" />
+            
+            <TextView
+                android:id="@+id/apull_news_imagenum_1003"
+                style="@style/NewsImgNum" />
+        </FrameLayout>
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="7dp"
+        android:gravity="center_vertical">
+        
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_marginRight="5dp"
+            android:gravity="center_vertical">
+            
+            <TextView
+                android:id="@+id/apull_news_type_1003"
+                style="@style/NewsType" />
+            
+            <TextView
+                android:id="@+id/apull_news_source_1003"
+                style="@style/NewsSource"/>
+        
+            <TextView
+                android:id="@+id/apull_news_time_1003"
+                style="@style/NewsTime" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/apull_news_ignore_1003"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingLeft="4dp"
+            android:gravity="right|center_vertical" >
+            
+            <ImageView
+                android:layout_width="18.7dp"
+                android:layout_height="13.3dp"
+                android:layout_marginRight="3.7dp"
+                android:background="@drawable/newssdk_icon_close_1"
+                android:layout_gravity="right|center_vertical" />
+        </LinearLayout>
+        
+    </LinearLayout>
+
+</LinearLayout>

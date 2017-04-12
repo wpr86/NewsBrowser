@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/newswebnative_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    >
+
+    <include android:id="@+id/newswebnative_commentbar"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            layout="@layout/newssdk_view_commentbar"
+            android:layout_alignParentBottom="true"
+            android:visibility="visible"
+            ></include>
+    
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/newswebnative_commentbar">
+
+        <com.qihoo360.newssdk.ui.common.CommonTitleBar
+            android:id="@+id/newswebnative_newstitlebar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </com.qihoo360.newssdk.ui.common.CommonTitleBar>
+
+        <com.qihoo360.newssdk.video.view.SimpleRefreshListView
+            android:id="@+id/newswebnative_listview"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:divider="@null"
+            android:dividerHeight="0dp"
+            android:listSelector="@android:color/transparent"
+            android:cacheColorHint="@android:color/transparent" >
+        </com.qihoo360.newssdk.video.view.SimpleRefreshListView>
+    </LinearLayout>
+    <com.qihoo360.newssdk.ui.common.LoadingView
+        android:id="@+id/newswebnative_loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+    <include
+        android:id="@+id/newswebnative_neterror"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        layout="@layout/newssdk_layout_net_error_or_nodata"
+        android:visibility="gone" />
+</RelativeLayout>

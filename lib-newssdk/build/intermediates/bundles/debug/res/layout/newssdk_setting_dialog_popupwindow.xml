@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/newssdk_settingdialog_popup_root1"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#f4f4f4">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:overScrollMode="never"
+            android:scrollbars="none">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:paddingLeft="11dp"
+                android:paddingRight="11dp"
+                android:layout_width="match_parent"
+                android:layout_height="125dp">
+                <LinearLayout
+                    style="@style/newssdk_share_dialog_button_layout">
+                    <ImageView
+                        android:id="@+id/newssdk_settingdialog_button_link1"
+                        android:src="@drawable/newssdk_share_button_link"
+                        style="@style/newssdk_share_dialog_button_icon"/>
+                    <TextView
+                        android:text="@string/newssdk_share_dialog_text_link"
+                        style="@style/newssdk_share_dialog_button_text"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/newssdk_settingdialog_layout_browser1"
+                    style="@style/newssdk_share_dialog_button_layout">
+                    <ImageView
+                        android:id="@+id/newssdk_settingdialog_button_browser1"
+                        android:src="@drawable/newssdk_share_button_browser"
+                        style="@style/newssdk_share_dialog_button_icon"/>
+                    <TextView
+                        android:text="@string/newssdk_share_dialog_text_browser"
+                        style="@style/newssdk_share_dialog_button_text"/>
+                </LinearLayout>
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:background="#e8e8e8"
+        android:layout_height="1dp"/>
+    <Button
+        android:id="@+id/newssdk_settingdialog_button_cancelshare1"
+        android:text="@string/newssdk_share_dialog_text_cancel"
+        style="@style/newssdk_share_dialog_button_cancel"/>
+
+</LinearLayout>

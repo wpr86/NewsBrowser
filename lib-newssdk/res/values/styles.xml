@@ -1,0 +1,255 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <style name="AppTheme" parent="@android:style/Theme.Light">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <!--gifView  -->
+    <style name="Widget.GifView" parent="@android:style/Widget"></style>
+
+    <!--进度条  -->
+    <style name="ProgressBar_Mini" parent="@android:style/Widget.ProgressBar.Horizontal">
+        <item name="android:maxHeight">4dip</item>
+        <item name="android:minHeight">4dip</item>
+        <item name="android:progressDrawable">@drawable/newssdk_progresslayerlist</item>
+    </style>
+    <style name="NewsTitle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">17dp</item>
+        <item name="android:textColor">#2c2c2c</item>
+        <item name="android:maxLines">2</item>
+    </style>
+    <style name="NewsImgNum">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">10dp</item>
+        <item name="android:paddingLeft">6dp</item>
+        <item name="android:paddingRight">6dp</item>
+        <item name="android:paddingTop">3dp</item>
+        <item name="android:paddingBottom">3dp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:layout_gravity">right|bottom</item>
+        <item name="android:layout_marginRight">4dp</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:background">@drawable/newssdk_bg_halftransparent_shape</item>
+        <item name="android:gravity">center</item>
+        <item name="android:visibility">gone</item>
+    </style>
+    <style name="NewsFromIcon">
+        <item name="android:layout_width">16dp</item>
+        <item name="android:layout_height">16dp</item>
+        <item name="android:layout_marginRight">6dp</item>
+    </style>
+    <style name="NewsSource">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">12dp</item>
+        <item name="android:textColor">#878787</item>
+        <item name="android:layout_marginRight">6dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+    <style name="NewsComment">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">12dp</item>
+        <item name="android:textColor">#878787</item>
+        <item name="android:layout_marginRight">6dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+    <style name="NewsTime">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">12dp</item>
+        <item name="android:textColor">#878787</item>
+        <item name="android:layout_marginRight">6dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+    <style name="NewsType">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">10dp</item>
+        <item name="android:textColor">@color/common_font_color_4</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginRight">4dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="essay_content">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">@color/essay_content_normal</item>
+    </style>
+
+    <style name="essay_title">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">@color/essay_content_normal</item>
+        <item name="android:paddingBottom">6dp</item>
+    </style>
+
+    <style name="essay_image_list_comment" parent="@style/essay_image_list_btn">
+        <item name="android:drawableLeft">@drawable/newssdk_icon_comment</item>
+    </style>
+
+    <style name="essay_image_list_repost" parent="@style/essay_image_list_btn">
+        <item name="android:src">@drawable/newssdk_repost</item>
+    </style>
+
+    <style name="essay_image_list_btn">
+        <item name="android:textSize">12dp</item>
+        <item name="android:textColor">@color/likes_bury_num_normal</item>
+    </style>
+
+    <style name="ProgressBar_WebView" parent="@android:style/Widget.ProgressBar.Horizontal">
+        <item name="android:maxHeight">1dp</item>
+        <item name="android:minHeight">1dp</item>
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/newssdk_webview_progressbar</item>
+    </style>
+
+    <style name="app_info_body_margin">
+        <item name="android:layout_marginLeft">7dp</item>
+        <item name="android:layout_marginRight">7dp</item>
+        <item name="android:layout_marginTop">7dp</item>
+    </style>
+
+    <style name="style_progress_bar">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:indeterminateDrawable">@drawable/newssdk_appdetail_webview_loading_icon</item>
+        <item name="android:indeterminate">false</item>
+    </style>
+
+    <style name="progressbar_text">
+        <item name="android:paddingTop">20dip</item>
+        <item name="android:text">@string/Downloading</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">17dp</item>
+        <item name="android:textColor">#777777</item>
+    </style>
+    <style name="style_common_list_title_light">
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:lineSpacingExtra">3dip</item>
+        <item name="android:textColor">#333333</item>
+    </style>
+
+    <style name="style_common_list_desc_light">
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">12dip</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">#707070</item>
+    </style>
+    <!-- 默认的style -->
+    <style name="common_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    
+    <style name="dialog_fullscreen">
+         <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>  <!-- 模糊 -->
+        <item name="android:windowIsTranslucent">false</item>  <!--半透明  -->
+        <item name="android:windowFullscreen">false</item>
+    </style>
+
+    <!-- 默认的长分割线style -->
+    <style name="common_divider_line">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/common_divider_width</item>
+        <item name="android:background">@color/common_list_row_divider</item>
+    </style>
+
+    <!-- title主题 -->
+    <style name="theme_title_green">
+        <item name="newssdk_title_font_select_color">#ffffffff</item>
+        <item name="newssdk_title_font_normal_color">#ff95ca9b</item>
+        <item name="newssdk_title_bg_color">#ff009900</item>
+        <item name="newssdk_title_edit_bg">@drawable/newssdk_channel_green_edit_bg</item>
+        <item name="newssdk_title_edit_add_img">@drawable/newssdk_channel_edit_green</item>
+        <item name="newssdk_title_divider_color">#ff009900</item>
+    </style>
+
+    <!-- title主题 -->
+    <style name="theme_title_white">
+         <item name="newssdk_title_font_select_color">#ff29a600</item>
+        <item name="newssdk_title_font_normal_color">#ff2c2c2c</item>
+        <item name="newssdk_title_bg_color">#fff5f5f5</item>
+        <item name="newssdk_title_edit_bg">@drawable/newssdk_channel_edit_bg</item>
+        <item name="newssdk_title_edit_add_img">@drawable/newssdk_channel_edit</item>
+        <item name="newssdk_title_divider_color">#ffe8e8e8</item>
+    </style>
+
+    <!-- title主题 -->
+    <style name="theme_title_blue">
+         <item name="newssdk_title_font_select_color">#ff1D83E5</item>
+        <item name="newssdk_title_font_normal_color">#ff2c2c2c</item>
+        <item name="newssdk_title_bg_color">#fff5f5f5</item>
+        <item name="newssdk_title_edit_bg">@drawable/newssdk_channel_edit_bg</item>
+        <item name="newssdk_title_edit_add_img">@drawable/newssdk_channel_edit</item>
+        <item name="newssdk_title_divider_color">#ff1D83E5</item>
+    </style>
+
+    <style name="SimpleProgressDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+
+
+    <style name="newssdk_anim_share_dialog">
+        <item name="android:windowEnterAnimation">@anim/newssdk_share_dialog_in</item>
+        <item name="android:windowExitAnimation">@anim/newssdk_share_dialog_out</item>
+    </style>
+
+    <style name="newssdk_share_dialog_button_icon">
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_marginTop">14dp</item>
+        <item name="android:layout_marginLeft">11dp</item>
+        <item name="android:layout_marginRight">11dp</item>
+    </style>
+
+    <style name="newssdk_share_dialog_button_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">10dp</item>
+        <item name="android:layout_marginTop">11dp</item>
+    </style>
+
+    <style name="newssdk_share_dialog_button_layout">
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="newssdk_share_dialog_button_cancel">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">@drawable/newssdk_share_button_canceltext</item>
+        <item name="android:background">@drawable/newssdk_share_button_cancel</item>
+    </style>
+
+</resources>

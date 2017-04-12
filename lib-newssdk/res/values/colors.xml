@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#ffffff</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="common_f5f5f5">#F5F5F5</color>
+    <color name="common_000000">#000000</color>
+    <color name="common_4d4d4d">#4d4d4d</color>
+
+    <color name="common_font_color_4">#b2b2b2</color>
+    <color name="common_font_color_5">#29a600</color>
+    <color name="common_font_color_7">#FFFFFF</color>
+    <color name="listview_footer_tip">#d4d4d4</color>
+    <color name="common_bg_green">#ff009900</color>
+    <color name="news_img_titlebg">#9b000000</color>
+    <color name="divider">#ffeeeeee</color>
+    <color name="likes_bury_num">#F85959</color>
+    <color name="likes_bury_num_normal">#979797</color>
+    <!--评论  -->
+    <color name="comment_commontext">#222222</color>
+    <color name="commentbar_bg_gray">#f4f5f6</color>
+    <color name="commentbar_bg_black">#66000000</color>
+    <color name="comment_zan_text">#979fac</color>
+    <color name="comment_name">#406599</color>
+    <color name="news_comment_bg">#ffffff</color>
+    <color name="news_comment_bg_gray">#f3f4f5</color>
+    <color name="news_comment_inputhint">#989898</color>
+    <!--无网络  -->
+    <color name="net_error_text">#999999</color>
+
+    <!--图集 -->
+    <color name="recommend_text">#cecece</color>
+    <color name="newssdk_attention_not">#42679a</color>
+    <color name="newssdk_attentioned">#999999</color>
+
+    <!-- 新闻门户 -->
+    <color name="news_portal_title_bar_pop_bg">#d4eaf5</color>
+    <color name="news_portal_title_bar_pop_text">#278fd6</color>
+     <!-- 网络异常 -->
+    <color name="apull_net_error_dark">#6e777a</color>
+    <color name="apull_net_error_mid_grey">#bbc3c5</color>
+
+    <color name="common_font_color_2">#4d4d4d</color>
+
+    <color name="essay_content_normal">#2c2c2c</color>
+    <color name="essay_content_pressed">#ff999999</color>
+
+    <color name="container_bg">#ffffff</color>
+
+    <!-- 应用详情页 -->
+    <color name="progress_white">#26ffffff</color>
+    <color name="color_ff4545">#ff4545</color>
+    <color name="color_00c9b0">#00c9b0</color>
+    <color name="partial_transparent_white">#33FFFFFF</color>
+    <color name="partial_transparent_black">#33000000</color>
+    <color name="theme_blue">#2b90ef</color>
+    <color name="new_ui_desc_color">#9c9c9c</color>
+    <color name="new_app_info_summary">#939393</color>
+    <color name="themeWindowBackground">#f0f3f4</color>
+
+    <!-- common颜色 -->
+
+    <!-- 默认的文字颜色 -->
+    <color name="common_font_color_1">#000000</color>
+    <color name="common_font_color_3">#999999</color>
+    <color name="common_font_color_6">#f14c0c</color>
+    <color name="common_font_color_9">@color/common_font_color_5</color>
+    <color name="common_font_color_10">@color/common_font_color_2</color>
+    <!-- 默认的背景颜色 -->
+    <color name="common_bg_color_3">#F0F0F0</color>
+    <color name="common_bg_color_4">#F5F5F5</color>
+    <color name="common_bg_gray3">#fff5f5f5</color>
+    <color name="common_bg_divider">#e8e8e8</color>
+    <color name="common_bg_white">#ffffffff</color>
+    <color name="common_titlebar_bg">#fafafa</color>
+
+    <!-- 其它颜色 -->
+    <color name="common_transparent">#00000000</color>
+    <color name="common_dlg_bar_divider">#ffd1d5db</color>
+    <color name="common_list_row_pressed">#ffffffff</color>
+    <color name="common_list_row_divider">#ffdbdbdb</color>
+    <color name="newssdk_vinfo_pcount">#878787</color>
+    <color name="common_titlebar_centertext">#fefefe</color>
+    <color name="common_titlebar_solidtext">#474747</color>
+
+    <!-- 分享相关 -->
+    <drawable name="newssdk_share_bg_normal">#f8f8f8</drawable>
+    <drawable name="newssdk_share_bg_selected">#e8e8e8</drawable>
+    <color name="newssdk_share_text_normal">#000000</color>
+    <color name="newssdk_share_text_selected">#858585</color>
+</resources>

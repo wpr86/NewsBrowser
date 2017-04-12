@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 显示评论的view -->
+<com.qihoo360.newssdk.comment.InfoCommentItemView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:paddingBottom="17dp"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:paddingTop="12dp" >
+
+    <com.qihoo360.newssdk.ui.common.AvatarIconView
+        android:id="@+id/citem_avatarv"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="8dp"
+        android:gravity="center"
+        android:scaleType="fitXY" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/citem_avatarv"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="6dp" >
+
+            <TextView
+                android:id="@+id/citem_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="35dp"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textColor="@color/comment_name"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/citem_zannum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:drawablePadding="3dp"
+                android:textColor="@color/newssdk_zan_text_selector"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/citem_commentcontent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:ellipsize="end"
+            android:textColor="@color/comment_commontext"
+            android:textSize="15dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+            
+            <TextView android:id="@+id/citem_lookall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/comment_name"
+                android:layout_gravity="center_vertical"
+                android:textSize="12dp"
+                android:visibility="gone"
+                android:layout_marginRight="10dp"
+                android:text="查看全部"/>
+
+            <TextView
+                android:id="@+id/citem_timestamp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/comment_zan_text"
+                android:layout_gravity="center_vertical"
+                android:textSize="12dp" />
+
+            <TextView android:id="@+id/citem_dian"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:text="·"
+                android:textColor="@color/comment_zan_text" />
+
+            <TextView
+                android:id="@+id/citem_commentnum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/comment_zan_text"
+                android:textSize="12dp"
+                android:gravity="center_vertical"
+                 />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/citem_aniview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="-6dp"
+        android:text="+1"
+        android:textColor="@color/likes_bury_num"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+</com.qihoo360.newssdk.comment.InfoCommentItemView>

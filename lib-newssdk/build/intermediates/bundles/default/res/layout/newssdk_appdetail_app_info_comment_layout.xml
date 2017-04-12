@@ -1,0 +1,16 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff">
+    <com.qihoo360.newssdk.page.app.view.WrapContentListView
+    	android:id="@+id/comment_list"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:cacheColorHint="#00000000"
+    	android:fadingEdge="none"
+    	android:listSelector="#00000000"
+    	android:scrollingCache="false"
+    	android:focusableInTouchMode="false"
+    	android:background="@drawable/newssdk_appdetail_common_list_bg"/>
+
+</RelativeLayout>

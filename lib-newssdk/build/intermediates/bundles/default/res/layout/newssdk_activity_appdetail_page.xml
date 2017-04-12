@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="false"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/app_info_root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f0f3f4" >
+
+        <RelativeLayout
+            android:id="@+id/appinfo_bottombar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/white"
+            >
+            <com.qihoo360.newssdk.page.app.view.AppDetailTextProgressBar
+                android:id="@+id/appinfo_progressbtn"
+                android:layout_width="230dp"
+                android:layout_height="38dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_centerInParent="true"
+                android:indeterminateOnly="false" />
+
+            <ImageView
+                android:id="@+id/appinfo_pausebtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_toRightOf="@id/appinfo_progressbtn"
+                android:src="@drawable/newssdk_appdetail_sw_pause_n"
+                android:visibility="invisible" />
+            <ImageView
+                android:id="@+id/appinfo_canceldown"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+				android:layout_centerVertical="true"
+				android:layout_toLeftOf="@id/appinfo_progressbtn"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/newssdk_appdetail_sw_cancel_n"
+                android:visibility="invisible" />
+        </RelativeLayout>
+
+        <include
+            android:id="@+id/app_info_body_view"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@id/appinfo_bottombar"
+            layout="@layout/newssdk_appdetail_body_layout" />
+
+        <View
+            android:id="@+id/bottom_divider"
+            android:layout_width="fill_parent"
+            android:layout_height="3dp"
+            android:layout_above="@id/appinfo_bottombar"
+            android:background="@drawable/newssdk_appdetail_bottom_shadow" />
+
+        <View
+            android:id="@+id/alpha_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/title_bar"
+            android:layout_alignLeft="@id/title_bar"
+            android:layout_alignRight="@id/title_bar"
+            android:layout_alignTop="@id/title_bar"
+            android:background="#ffffff" />
+
+        <View
+            android:id="@+id/header_divider"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/app_info_header_divider"
+            android:layout_below="@id/alpha_view"
+            android:background="@drawable/newssdk_appdetail_title_shadow"
+            android:visibility="gone" />
+
+        <include
+            android:id="@+id/loading"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="@dimen/app_info_loading_margin_top"
+            layout="@layout/newssdk_appdetail_common_loading" />
+
+        <include
+            android:id="@+id/common_retry_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="@dimen/app_info_loading_margin_top"
+            layout="@layout/newssdk_appdetail_common_not_network" />
+
+        <com.qihoo360.newssdk.ui.common.CommonTitleBar
+            android:id="@id/title_bar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="news_type_name">
+        <item>推荐</item>
+        <item>热点</item>
+        <item>视频</item>
+        <item>娱乐</item>
+        <item>科技</item>
+        <item>汽车</item>
+        <item>军事</item>
+        <item>财经</item>
+        <item>体育</item>
+    </string-array>
+
+    <string-array name="news_type_c">
+        <item>youlike</item>
+        <item>newhot</item>
+        <item>video</item>
+        <item>fun</item>
+        <item>science</item>
+        <item>car</item>
+        <item>militery</item>
+        <item>economy</item>
+        <item>sport</item>
+    </string-array>
+
+    <string-array name="news_type_name_optional">
+        <item>社会</item>
+        <item>搞笑</item>
+        <item>健康</item>
+        <item>教育</item>
+        <item>历史</item>
+    </string-array>
+
+    <string-array name="news_type_c_optional">
+        <item>social</item>
+        <item>funny</item>
+        <item>health</item>
+        <item>education</item>
+        <item>history</item>
+    </string-array>
+</resources>

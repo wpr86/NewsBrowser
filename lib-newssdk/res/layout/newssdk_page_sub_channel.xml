@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_sub_channel_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.qihoo360.newssdk.ui.common.ScrollViewContainer
+        android:id="@+id/sv_sub_cahnnel_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/rl_sub_cahnnel_top"
+            android:layout_width="match_parent"
+            android:layout_height="136dp"
+            android:background="@drawable/newssdk_sub_channel_top_bg" >
+
+            <RelativeLayout
+                android:id="@+id/rl_sub_cahnnel_info"
+                android:layout_width="wrap_content"
+                android:layout_height="136dp" >
+
+                <ImageView
+                    android:id="@+id/iv_sub_cahnnel_logo"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="52dp"
+                    android:scaleType="centerCrop" />
+
+                <TextView
+                    android:id="@+id/tv_sub_channel_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="72dp"
+                    android:layout_toRightOf="@id/iv_sub_cahnnel_logo"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_sub_cahnnel_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/ll_sub_channel_all"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <View
+                    android:id="@+id/v_sub_channel_top_divider"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="#e8e8e8" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:layout_marginLeft="15dp"
+                    android:gravity="center"
+                    android:text="@string/newssdk_sub_channel_all"
+                    android:textColor="#009900" />
+
+                <View
+                    android:layout_width="28dp"
+                    android:layout_height="3dp"
+                    android:layout_marginLeft="15dp"
+                    android:background="#009900" />
+
+                <View
+                    android:id="@+id/v_sub_channel_bottom_divider"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginTop="-0.5dp"
+                    android:background="#e8e8e8" />
+            </LinearLayout>
+        </LinearLayout>
+    </com.qihoo360.newssdk.ui.common.ScrollViewContainer>
+
+    <com.qihoo360.newssdk.ui.common.CommonTitleBar
+        android:id="@+id/sub_channel_titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_alignParentTop="true"/>
+
+    <RelativeLayout 
+        android:id="@+id/rl_night_overlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#65000000"
+        android:visibility="gone"
+        ></RelativeLayout>
+</RelativeLayout>

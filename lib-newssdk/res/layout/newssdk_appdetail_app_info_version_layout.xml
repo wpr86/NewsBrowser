@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/app_version"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp"
+        android:background="@drawable/newssdk_appdetail_common_list_bg">
+        <LinearLayout
+        	android:id="@+id/item_group_img_title_ll"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:layout_marginTop="8dp"
+        	android:gravity="center_vertical"
+        	android:orientation="horizontal" >
+
+        	<View
+            	android:layout_width="3dip"
+        		android:layout_height="13dip"
+        		android:layout_marginRight="8dip"
+            	android:background="#45b1de" />
+
+        	<TextView
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:gravity="center_vertical|left"
+            	android:text="@string/app_info_version_title"
+            	android:textColor="#333333"
+            	android:textSize="@dimen/app_info_title_text_size" />
+
+    	</LinearLayout>
+
+    	<TextView
+        	android:id="@+id/version_info1"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:layout_below="@id/item_group_img_title_ll"
+        	android:layout_marginLeft="12dip"
+        	android:layout_marginTop="8dp"
+        	android:gravity="left|center"
+        	android:lineSpacingExtra="6dp"
+        	android:textColor="#707070"
+        	android:textSize="@dimen/app_info_content_text_size_small" />
+
+    	<TextView
+        	android:id="@+id/version_info2"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_below="@id/version_info1"
+        	android:layout_marginTop="2dp"
+        	android:layout_centerVertical="true"
+        	android:layout_marginLeft="12dip"
+        	android:gravity="left|center"
+        	android:lineSpacingExtra="6dp"
+        	android:textColor="#707070"
+        	android:textSize="@dimen/app_info_content_text_size_small"/>
+
+    </RelativeLayout>
+</RelativeLayout>

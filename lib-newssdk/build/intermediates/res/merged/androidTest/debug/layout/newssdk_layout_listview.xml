@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_list_rl_ad_container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <com.qihoo360.newssdk.ui.common.RefreshListView
+        android:id="@+id/lv_portal_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="#00000000"
+        android:fadingEdge="none"
+        android:headerDividersEnabled="false"
+        android:listSelector="#00000000"
+        android:overScrollFooter="@null"
+        android:overScrollMode="never"
+        android:scrollbarThumbVertical="@drawable/newssdk_listview_scrollbar"
+        android:visibility="gone" />
+
+    <ViewStub
+        android:id="@+id/vs_net_error"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout="@layout/newssdk_layout_net_error_or_nodata" />
+
+    <RelativeLayout
+        android:id="@+id/news_portal_pop_text_parent"
+        android:layout_width="fill_parent"
+        android:layout_height="36dp"
+        android:background="@color/news_portal_title_bar_pop_bg"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/news_portal_pop_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:ellipsize="none"
+            android:singleLine="true"
+            android:text="@string/news_portal_title_bar_pop_text"
+            android:textColor="@color/news_portal_title_bar_pop_text"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+    <com.qihoo360.newssdk.ui.common.LoadingView
+        android:id="@+id/news_listview_loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+</RelativeLayout>

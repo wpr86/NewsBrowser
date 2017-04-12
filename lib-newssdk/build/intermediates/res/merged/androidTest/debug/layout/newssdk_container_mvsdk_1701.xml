@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mvsdk_root_layout_1701"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingLeft="@dimen/cantiner_padding_left"
+    android:paddingRight="@dimen/cantiner_padding_right"
+    android:paddingTop="11.5dp"
+    android:paddingBottom="11.5dp" >
+    
+    <RelativeLayout
+        android:id="@+id/mvsdk_left_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:paddingRight="5dp"
+        android:layout_gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/mvsdk_desc_1701"
+            style="@style/NewsTitle"
+            android:layout_alignParentTop="true" />
+
+        <LinearLayout
+            android:id="@+id/mvsdk_left_view_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/mvsdk_desc_1701"
+            android:layout_marginTop="2dp"
+            android:gravity="center_vertical"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/mvsdk_type_1701"
+                    style="@style/NewsType"
+                    android:text="@string/expend" />
+
+                <TextView
+                    android:id="@+id/mvsdk_title_1701"
+                    style="@style/NewsTime"
+                    android:maxWidth="110dp" />
+
+                <TextView
+                    android:id="@+id/mvsdk_appname_1701"
+                    style="@style/NewsSource"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:visibility="gone" />
+
+                <com.qihoo360.newssdk.ui.common.TextProgressBar
+                    android:id="@+id/mvsdk_progress_1701"
+                    android:layout_width="60dp"
+                    android:layout_height="22dp"
+                    android:indeterminateOnly="false"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/mvsdk_ignore_1701"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="18.7dp"
+                    android:layout_height="13.3dp"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginLeft="9dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginTop="4dp"
+                    android:background="@drawable/newssdk_icon_close_1" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/mvsdk_large_image_1701"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="6dp"
+        android:layout_weight="1"
+        android:scaleType="fitXY" />
+</LinearLayout>

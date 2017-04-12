@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_layout_8"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/cantiner_padding_left"
+    android:paddingRight="@dimen/cantiner_padding_right"
+    android:paddingTop="11.5dp"
+    android:paddingBottom="11.5dp" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" >
+           
+	        <ImageView
+	            android:id="@+id/app_default_image_8"
+	            android:layout_width="50dp"
+	            android:layout_height="50dp"
+	            android:scaleType="centerCrop" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/app_name_8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/common_font_size_e"
+                android:textColor="#3b3b3b"
+                android:singleLine="true"
+                android:ellipsize="end" />
+
+            <RatingBar
+                android:id="@+id/app_star_8"
+                style="@android:style/Widget.RatingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:max="100"
+                android:minHeight="15dp"
+                android:isIndicator="true"
+                android:progressDrawable="@drawable/newssdk_rating_star" />
+
+            <TextView
+                android:id="@+id/app_install_8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/common_font_size_g"
+                android:textColor="@color/common_font_color_3"
+                android:singleLine="true"
+                android:ellipsize="end" />
+            
+            <TextView
+                android:id="@+id/app_ad_title_8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="2dp"
+                android:paddingBottom="2dp"
+                android:textSize="@dimen/common_font_size_g"
+                android:textColor="@color/common_font_color_7"
+                android:singleLine="true"
+                android:ellipsize="end" />
+
+	        <TextView
+	            android:id="@+id/app_ad_desc_8"
+	            android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:textSize="@dimen/common_font_size_g"
+                android:textColor="@color/common_font_color_3"
+                android:singleLine="true"
+                android:ellipsize="end" />
+        </LinearLayout>
+        
+        <com.qihoo360.newssdk.ui.common.TextProgressBar
+            android:id="@+id/app_progress_8"
+            android:layout_width="74dp"
+            android:layout_height="28dp"
+            android:indeterminateOnly="false" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical" >
+        
+        <TextView
+            android:id="@+id/app_type_8"
+            style="@style/NewsType"
+            android:text="@string/expend" />
+        
+        <TextView
+	        android:id="@+id/app_short_desc_8"
+	        android:layout_width="0dp"
+			android:layout_weight="1"
+	        android:layout_height="wrap_content"
+	        android:textSize="@dimen/common_font_size_f"
+	        android:textColor="@color/common_font_color_3"
+	        android:singleLine="true"
+	        android:ellipsize="end" />
+
+		<LinearLayout
+			android:id="@+id/app_ignore_8"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:orientation="horizontal"
+			android:paddingLeft="4dp"
+			android:gravity="right|center_vertical" >
+
+			<ImageView
+				android:layout_width="18.7dp"
+				android:layout_height="13.3dp"
+				android:layout_marginRight="3.7dp"
+				android:background="@drawable/newssdk_icon_close_1"
+				android:layout_gravity="right|center_vertical" />
+		</LinearLayout>
+    </LinearLayout>
+</LinearLayout>

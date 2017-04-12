@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/news_root_layout_7"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/cantiner_padding_left"
+    android:paddingTop="12dp" >
+
+    <TextView
+        android:id="@+id/news_title_7"
+        style="@style/NewsTitle"
+		android:layout_marginRight="@dimen/cantiner_padding_right"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="185dp"
+        android:layout_marginTop="5dp"
+		android:layout_marginRight="@dimen/cantiner_padding_right">
+
+        <ImageView
+            android:id="@+id/news_image_7A"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/news_imagenum_7"
+            style="@style/NewsImgNum" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+		android:layout_marginTop="-9dp">
+
+        <LinearLayout
+            android:id="@+id/news_display_7"
+            android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:orientation="horizontal"
+			android:layout_marginTop="5dp">
+            <ImageView
+	            android:id="@+id/news_fromicon_7"
+	            style="@style/NewsFromIcon"/>
+
+	        <TextView
+	            android:id="@+id/news_source_7"
+	            style="@style/NewsSource"/>
+
+	        <TextView
+	            android:id="@+id/news_comment_7"
+	            style="@style/NewsComment"/>
+
+	        <TextView
+	            android:id="@+id/news_time_7"
+	            style="@style/NewsTime"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/news_ignore_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right|center_vertical"
+            android:orientation="horizontal"
+			android:layout_marginLeft="-21dp" >
+
+            <ImageView
+                android:layout_width="18.7dp"
+                android:layout_height="13.3dp"
+                android:layout_gravity="right|center_vertical"
+				android:layout_marginLeft="30dp"
+                android:layout_marginRight="18.7dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/newssdk_icon_close_1" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

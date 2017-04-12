@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp" >
+    
+    <LinearLayout
+        android:id="@+id/search_parent"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/cantiner_padding_left"
+		android:layout_marginRight="@dimen/cantiner_padding_right"
+		android:gravity="center" >
+            
+        <ImageView
+            android:id="@+id/search_image"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:background="@drawable/newssdk_icon_secord_level_search"
+            android:layout_marginRight="6dp"
+            android:layout_gravity="center_vertical"
+            android:scaleType="centerCrop" />
+	        
+        <TextView
+            android:id="@+id/search_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:textColor="#cecece"
+            android:layout_gravity="center_vertical"
+            android:text="@string/add_search"
+            android:singleLine="true"
+            android:ellipsize="end" />
+    </LinearLayout>
+</RelativeLayout>

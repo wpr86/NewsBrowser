@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/news_root_layout_12"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+    <View
+        android:id="@+id/card_divider_top"
+        android:layout_width="match_parent"
+        android:layout_height="3dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="@dimen/cantiner_padding_left"
+        android:paddingRight="@dimen/cantiner_padding_right" >
+
+        <TextView
+            android:id="@+id/card_interest_title"
+            android:layout_width="wrap_content"
+            android:layout_height="16dp"
+            android:layout_gravity="center_vertical"
+            android:textColor="#ffffff"
+            android:textSize="10dp"
+            android:text="@string/container12_tip"
+            android:background="@color/common_font_color_5"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:gravity="center"
+            android:singleLine="true"
+            android:ellipsize="none" />
+
+        <TextView
+	        android:id="@+id/card_interest_title_desc"
+	        android:layout_width="0dp"
+	        android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+	        android:layout_marginLeft="4dp"
+	        android:textSize="11dp"
+            android:singleLine="true"
+            android:ellipsize="end" />
+
+        <LinearLayout
+            android:id="@+id/card_interest_ignore"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingLeft="4dp"
+            android:gravity="right|center_vertical" >
+            
+            <ImageView
+			    android:layout_width="18.7dp"
+			    android:layout_height="13.3dp"
+			    android:layout_marginRight="3.7dp"
+			    android:background="@drawable/newssdk_icon_close_1"
+			    android:layout_gravity="right|center_vertical" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:id="@+id/card_interest_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/cantiner_padding_left"
+        android:paddingRight="@dimen/cantiner_padding_right"
+        android:layout_marginTop="9dp"
+        android:layout_marginBottom="9dp"
+        android:paddingTop="9dp"
+        android:paddingBottom="9dp"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:id="@+id/card_interest_ll"
+            android:layout_width="wrap_content"
+            android:layout_height="22dp"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal" >
+        </LinearLayout>
+    </HorizontalScrollView>
+    
+    <View
+        android:id="@+id/card_divider_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="3dp" />
+</LinearLayout>

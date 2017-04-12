@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_layout_58"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingLeft="@dimen/cantiner_padding_left"
+    android:paddingRight="@dimen/cantiner_padding_right"
+    android:paddingTop="11.5dp"
+    android:paddingBottom="11.5dp" >
+    
+    <ImageView
+        android:id="@+id/app_default_image_58"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+		android:layout_gravity="center_vertical"
+        android:scaleType="centerCrop" />
+    
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginLeft="12dp" >
+        
+        <TextView
+	        android:id="@+id/app_short_desc_58"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="@dimen/common_font_size_e"
+	        android:textColor="#3b3b3b"
+	        android:singleLine="true"
+	        android:ellipsize="end"/>
+        
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="right"
+            android:layout_marginTop="5dp" >
+            
+            <com.qihoo360.newssdk.ui.common.TextProgressBar
+	            android:id="@+id/app_progress_58"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center_vertical"
+	            android:indeterminateOnly="false" />
+            
+            <ImageView
+                android:id="@+id/app_progress_58_right"
+                android:layout_width="5dp"
+                android:layout_height="8dp"
+                android:scaleType="fitXY"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/newssdk_icon_right_arrow"
+                android:layout_marginLeft="4.5dp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

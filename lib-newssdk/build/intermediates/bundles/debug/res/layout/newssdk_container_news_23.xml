@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <LinearLayout
+        android:id="@+id/card_layout"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_marginLeft="@dimen/cantiner_padding_left"
+		android:layout_marginRight="@dimen/cantiner_padding_right"
+		android:layout_marginBottom="10dp"
+		android:orientation="horizontal"
+        android:gravity="center_vertical" >
+            
+        <TextView
+            android:id="@+id/card_title"
+            android:layout_width="0dp"
+            android:layout_weight="8"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:layout_marginLeft="8dp"
+            android:singleLine="true"
+            android:ellipsize="end" />
+        
+        <View
+	        android:layout_width="1dp"
+	        android:layout_height="match_parent"
+	        android:layout_marginTop="12dp"
+	        android:layout_marginBottom="13dp"
+	        android:background="#e8e8e8" />
+	        
+        <RelativeLayout
+            android:id="@+id/card_title_tip"
+            android:layout_width="0dp"
+	        android:layout_weight="3"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical" >
+            
+            <TextView
+                android:id="@+id/card_care_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/add_care"
+                android:textSize="14dp"
+	            android:textColor="#979797"
+	            android:layout_centerInParent="true"
+	            android:singleLine="true"
+	            android:ellipsize="end" />
+            
+            <ImageView
+                   android:id="@+id/card_care_image"
+                   android:layout_width="16dp"
+                   android:layout_height="16dp"
+                   android:layout_toLeftOf="@id/card_care_text"
+                   android:layout_marginRight="4dp"
+                   android:layout_centerVertical="true"
+                   android:scaleType="centerCrop" />
+        </RelativeLayout>
+    </LinearLayout>
+</merge>

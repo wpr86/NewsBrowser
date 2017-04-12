@@ -1,0 +1,171 @@
+# view res/layout/newssdk_page_news_portal_view.xml #generated:79
+-keep class android.support.v4.view.ViewPager { <init>(...); }
+
+# view res/layout/newssdk_appdetail_app_info_body_layout.xml #generated:49
+-keep class com.qihoo360.apull.ui.page.app.view.OvalShadowView { <init>(...); }
+
+# view res/layout/newssdk_activity_commentlist.xml #generated:29
+-keep class com.qihoo360.newssdk.comment.CommentListView { <init>(...); }
+
+# view res/layout/newssdk_view_comment_item.xml #generated:3
+-keep class com.qihoo360.newssdk.comment.InfoCommentItemView { <init>(...); }
+
+# view res/layout/newssdk_view_commentbar.xml #generated:2
+-keep class com.qihoo360.newssdk.comment.InfoPageCommentBar { <init>(...); }
+
+# view res/layout/newssdk_activity_appdetail_page.xml #generated:21
+-keep class com.qihoo360.newssdk.page.app.view.AppDetailTextProgressBar { <init>(...); }
+
+# view res/layout/newssdk_appdetail_app_info_tags_layout.xml #generated:37
+-keep class com.qihoo360.newssdk.page.app.view.AppInfoTagView { <init>(...); }
+
+# view res/layout/newssdk_appdetail_app_info_body_layout.xml #generated:2
+# view res/layout/newssdk_appdetail_body_layout.xml #generated:2
+-keep class com.qihoo360.newssdk.page.app.view.CommonScrollView { <init>(...); }
+
+# view res/layout/newssdk_appdetail_app_info_body_layout.xml #generated:26
+# view res/layout/newssdk_appdetail_body_layout.xml #generated:26
+-keep class com.qihoo360.newssdk.page.app.view.HorizontalImageView { <init>(...); }
+
+# view res/layout/newssdk_appdetail_body_layout.xml #generated:49
+-keep class com.qihoo360.newssdk.page.app.view.OvalShadowView { <init>(...); }
+
+# view res/layout/newssdk_appdetail_app_info_comment_layout.xml #generated:5
+-keep class com.qihoo360.newssdk.page.app.view.WrapContentListView { <init>(...); }
+
+# view res/layout/newssdk_page_channel_editor.xml #generated:67
+# view res/layout/newssdk_page_channel_editor.xml #generated:87
+-keep class com.qihoo360.newssdk.ui.channel.NewsChannelEditGroup { <init>(...); }
+
+# view res/layout/newssdk_appdetail_comment_normal_list_item.xml #generated:15
+# view res/layout/newssdk_view_comment_item.xml #generated:12
+# view res/layout/newssdk_view_videoinfo_header.xml #generated:146
+-keep class com.qihoo360.newssdk.ui.common.AvatarIconView { <init>(...); }
+
+# view res/layout/newssdk_news_portal_title_item.xml #generated:2
+-keep class com.qihoo360.newssdk.ui.common.ColorTextRedDotView { <init>(...); }
+
+# view res/layout/newssdk_layout_textview_image.xml #generated:7
+-keep class com.qihoo360.newssdk.ui.common.ColorTextView { <init>(...); }
+
+# view res/layout/newssdk_layout_ignore.xml #generated:31
+# view res/layout/newssdk_layout_ignore_small.xml #generated:10
+-keep class com.qihoo360.newssdk.ui.common.CommonBtn5 { <init>(...); }
+
+# view res/layout/newssdk_container_apull_app_20.xml #generated:12
+# view res/layout/newssdk_container_apull_app_57.xml #generated:60
+-keep class com.qihoo360.newssdk.ui.common.CommonRippleLinearLayout { <init>(...); }
+
+# view res/layout/newssdk_container_apull_app_56.xml #generated:68
+-keep class com.qihoo360.newssdk.ui.common.CommonRippleRelativeLayout { <init>(...); }
+
+# view res/layout/newssdk_activity_appdetail_page.xml #generated:103
+# view res/layout/newssdk_activity_commentlist.xml #generated:13
+# view res/layout/newssdk_page_ad_webview.xml #generated:8
+# view res/layout/newssdk_page_news_imagelist.xml #generated:24
+# view res/layout/newssdk_page_news_native_webview.xml #generated:23
+# view res/layout/newssdk_page_news_webview.xml #generated:12
+# view res/layout/newssdk_page_sub_channel.xml #generated:87
+-keep class com.qihoo360.newssdk.ui.common.CommonTitleBar { <init>(...); }
+
+# view res/layout/newssdk_layout_webview.xml #generated:7
+# view res/layout/newssdk_page_ad_webview.xml #generated:19
+-keep class com.qihoo360.newssdk.ui.common.CommonWebView { <init>(...); }
+
+# view res/layout/newssdk_layout_listview_header.xml #generated:39
+# view res/layout/newssdk_listview_header.xml #generated:24
+-keep class com.qihoo360.newssdk.ui.common.CricleDrawable1 { <init>(...); }
+
+# view res/layout/newssdk_view_videoinfo_header.xml #generated:197
+-keep class com.qihoo360.newssdk.ui.common.EmptyCommentView { <init>(...); }
+
+# view res/layout/newssdk_view_splash_ad.xml #generated:9
+-keep class com.qihoo360.newssdk.ui.common.GifView { <init>(...); }
+
+# view res/layout/newssdk_layout_ignore.xml #generated:43
+-keep class com.qihoo360.newssdk.ui.common.IgnoreReasonGroup { <init>(...); }
+
+# view res/layout/newssdk_page_city_list.xml #generated:40
+-keep class com.qihoo360.newssdk.ui.common.LetterSelectView { <init>(...); }
+
+# view res/layout/newssdk_layout_listview.xml #generated:46
+# view res/layout/newssdk_layout_listview_local.xml #generated:46
+# view res/layout/newssdk_layout_listview_zhongmei.xml #generated:101
+# view res/layout/newssdk_page_news_native_webview.xml #generated:40
+# view res/layout/newssdk_page_news_webview.xml #generated:38
+-keep class com.qihoo360.newssdk.ui.common.LoadingView { <init>(...); }
+
+# view res/layout/newssdk_page_news_imagelist.xml #generated:18
+# view res/layout/newssdk_view_videoinfo_header.xml #generated:191
+-keep class com.qihoo360.newssdk.ui.common.NetErrorView { <init>(...); }
+
+# view res/layout/newssdk_nativeweb_header.xml #generated:8
+# view res/layout/newssdk_page_news_webview.xml #generated:24
+-keep class com.qihoo360.newssdk.ui.common.NewsWebView { <init>(...); }
+
+# view res/layout/newssdk_page_city_list.xml #generated:32
+-keep class com.qihoo360.newssdk.ui.common.PinnedHeaderListView { <init>(...); }
+
+# view res/layout/newssdk_layout_listview.xml #generated:8
+# view res/layout/newssdk_layout_listview_local.xml #generated:8
+# view res/layout/newssdk_layout_listview_zhongmei.xml #generated:64
+-keep class com.qihoo360.newssdk.ui.common.RefreshListView { <init>(...); }
+
+# view res/layout/newssdk_page_news_portal_view.xml #generated:21
+-keep class com.qihoo360.newssdk.ui.common.ScrollTitle { <init>(...); }
+
+# view res/layout/newssdk_page_sub_channel.xml #generated:8
+-keep class com.qihoo360.newssdk.ui.common.ScrollViewContainer { <init>(...); }
+
+# view res/layout/newssdk_view_splash_ad.xml #generated:21
+-keep class com.qihoo360.newssdk.ui.common.SplashSkipBtn { <init>(...); }
+
+# view res/layout/newssdk_container_apull_app_14.xml #generated:84
+# view res/layout/newssdk_container_apull_app_48.xml #generated:50
+# view res/layout/newssdk_container_apull_app_49.xml #generated:50
+# view res/layout/newssdk_container_apull_app_50.xml #generated:50
+# view res/layout/newssdk_container_apull_app_51.xml #generated:31
+# view res/layout/newssdk_container_apull_app_52.xml #generated:72
+# view res/layout/newssdk_container_apull_app_56.xml #generated:113
+# view res/layout/newssdk_container_apull_app_57.xml #generated:89
+# view res/layout/newssdk_container_apull_app_58.xml #generated:42
+# view res/layout/newssdk_container_apull_app_8.xml #generated:89
+# view res/layout/newssdk_container_apull_mv_505.xml #generated:59
+# view res/layout/newssdk_container_apull_mv_506.xml #generated:55
+# view res/layout/newssdk_container_mvsdk_1701.xml #generated:59
+# view res/layout/newssdk_container_mvsdk_1702.xml #generated:55
+-keep class com.qihoo360.newssdk.ui.common.TextProgressBar { <init>(...); }
+
+# view res/layout/newssdk_layout_follow_guide.xml #generated:31
+-keep class com.qihoo360.newssdk.ui.guide.AutoScrollTextView { <init>(...); }
+
+# view res/layout/newssdk_activity_appdetail_imagelist.xml #generated:7
+# view res/layout/newssdk_page_news_imagelist.xml #generated:13
+-keep class com.qihoo360.newssdk.ui.photowall.SliderViewPager { <init>(...); }
+
+# view res/layout/newssdk_view_videorelate_item.xml #generated:3
+-keep class com.qihoo360.newssdk.video.view.RelateVideoView { <init>(...); }
+
+# view res/layout/newssdk_activity_videoinfo.xml #generated:29
+# view res/layout/newssdk_page_news_native_webview.xml #generated:29
+-keep class com.qihoo360.newssdk.video.view.SimpleRefreshListView { <init>(...); }
+
+# view res/layout/newssdk_activity_commentlist.xml #generated:118
+# view res/layout/newssdk_container_news_16.xml #generated:37
+# view res/layout/newssdk_dialog_comment_input.xml #generated:59
+# view res/layout/newssdk_view_videoinfo_header.xml #generated:166
+# view res/layout/newssdk_widget_videoplay.xml #generated:159
+-keep class com.qihoo360.newssdk.video.widget.AutoRotateImageView { <init>(...); }
+
+# view res/layout/newssdk_widget_videoplay.xml #generated:3
+-keep class com.qihoo360.newssdk.video.widget.ScreenVideoPlayer { <init>(...); }
+
+# view res/layout/newssdk_view_volumelayout.xml #generated:2
+-keep class com.qihoo360.newssdk.video.widget.ValumeProgressView { <init>(...); }
+
+# view res/layout/newssdk_view_volumelayout.xml #generated:13
+-keep class com.qihoo360.newssdk.video.widget.VerticalProgressBar { <init>(...); }
+
+# view res/layout/newssdk_view_videoseekprogress.xml #generated:2
+-keep class com.qihoo360.newssdk.video.widget.VideoSeekProgressView { <init>(...); }
+

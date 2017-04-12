@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\newssdk_ani_right_out.xml",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\anim\\newssdk_ani_right_out.xml"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\newssdk_imgguide_in.xml",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\anim\\newssdk_imgguide_in.xml"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\newssdk_followguide_tips_in.xml",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\anim\\newssdk_followguide_tips_in.xml"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\newssdk_activity_right_in.xml",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\anim\\newssdk_activity_right_in.xml"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\newssdk_zancai_in_out.xml",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\anim\\newssdk_zancai_in_out.xml"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\newssdk_followguide_like_in.xml",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\anim\\newssdk_followguide_like_in.xml"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\newssdk_share_dialog_in.xml",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\anim\\newssdk_share_dialog_in.xml"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\newssdk_add_score_anim.xml",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\anim\\newssdk_add_score_anim.xml"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\newssdk_activity_bottom_out.xml",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\anim\\newssdk_activity_bottom_out.xml"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\newssdk_followguide_like_out.xml",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\anim\\newssdk_followguide_like_out.xml"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\newssdk_ani_bottom_in.xml",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\anim\\newssdk_ani_bottom_in.xml"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\newssdk_share_dialog_out.xml",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\anim\\newssdk_share_dialog_out.xml"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\newssdk_activity_left_out.xml",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\anim\\newssdk_activity_left_out.xml"
+    }
+]

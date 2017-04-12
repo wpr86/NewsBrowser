@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/newssdk_appdetail_common_list_bg">
+
+        <LinearLayout
+    		android:id="@+id/tag_layout_title"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:layout_marginTop="8dp"
+        	android:orientation="horizontal"
+        	android:gravity="center_vertical">
+
+        	<View
+        		android:layout_width="3dip"
+            	android:layout_height="13dip"
+            	android:layout_marginRight="8dip"
+            	android:background="@color/color_00c9b0"/>
+
+        	<TextView
+        		android:id="@+id/app_info_tag_title"
+            	android:layout_height="wrap_content"
+            	android:textSize="@dimen/app_info_title_text_size"
+            	android:textColor="#333333"
+            	android:layout_width="fill_parent"
+            	android:gravity="center_vertical|left"
+            	android:text="@string/app_info_tag_text" />
+		</LinearLayout>
+
+		<com.qihoo360.newssdk.page.app.view.AppInfoTagView
+    		android:id="@+id/appinfotagView"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+    		android:paddingLeft="7dp"
+    		android:paddingRight="7dp"
+    		android:paddingTop="6dp"
+    		android:paddingBottom="6dp"
+        	android:scrollbars="none" />
+    	</LinearLayout>
+
+</LinearLayout>

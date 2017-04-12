@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@android:color/white"
+              android:orientation="vertical"
+    >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/newssdk_appdetail_app_info_sep"
+        />
+
+    <TextView
+        android:id="@+id/comment_list_weight_more_tv"
+        android:layout_width="match_parent"
+        android:layout_height="41dip"
+        android:gravity="center"
+        android:background="@color/white"
+        android:textSize="15dip"
+        android:textColor="#25bfbd"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dip"
+        android:background="#f6f7f7"
+        />
+
+</LinearLayout>

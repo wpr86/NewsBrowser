@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/news_root_layout_14"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="13dp" >
+
+        <TextView
+            android:id="@+id/jokes_content_14"
+            style="@style/essay_content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="4dp"
+            android:singleLine="false" />
+
+        <LinearLayout
+            android:id="@+id/user_action_layout_14"
+            android:layout_width="fill_parent"
+            android:layout_height="48dp"
+            android:orientation="horizontal" >
+
+            <RelativeLayout
+                android:id="@+id/action_likes_container_14"
+                android:layout_width="76dp"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/likes_addone_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="0dp"
+                    android:text="+1"
+                    android:textColor="@color/likes_bury_num"
+                    android:textSize="12dp"
+                    android:textStyle="bold"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:id="@+id/action_likes_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="17dp"
+                    android:layout_marginTop="13dp"
+                    android:gravity="center"
+                    android:scaleType="fitXY" >
+
+                    <ImageView
+                        android:id="@+id/action_likes_image_14"
+                        android:layout_width="18dp"
+                        android:layout_height="18dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/newssdk_hand_up" />
+
+                    <TextView
+                        android:id="@+id/likes_num_14"
+                        style="@style/essay_image_list_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="5dp" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/action_bury_container_14"
+                android:layout_width="69dp"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/bury_addone_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="0dp"
+                    android:text="+1"
+                    android:textColor="@color/likes_bury_num"
+                    android:textSize="12dp"
+                    android:textStyle="bold"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:id="@+id/action_bury_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="17dp"
+                    android:layout_marginTop="13dp"
+                    android:gravity="center"
+                    android:scaleType="fitXY" >
+
+                    <ImageView
+                        android:id="@+id/action_bury_image_14"
+                        android:layout_width="18dp"
+                        android:layout_height="18dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/newssdk_hand_down" />
+
+                    <TextView
+                        android:id="@+id/bury_num_14"
+                        style="@style/essay_image_list_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="5dp" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/action_comment_container_14"
+                android:layout_width="69dp"
+                android:layout_height="match_parent" >
+
+                <LinearLayout
+                    android:id="@+id/action_comment_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="17dp"
+                    android:layout_marginTop="13dp"
+                    android:gravity="center"
+                    android:scaleType="fitXY" >
+
+                    <ImageView
+                        android:id="@+id/action_comment_image_14"
+                        android:layout_width="18dp"
+                        android:layout_height="18dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/newssdk_icon_comment" />
+
+                    <TextView
+                        android:id="@+id/comment_num_14"
+                        style="@style/essay_image_list_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="5dp" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/favorite_repost_layout_14"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent" >
+
+                <LinearLayout
+                    android:id="@+id/action_favoritelayout_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_alignWithParentIfMissing="true"
+                    android:layout_toLeftOf="@+id/action_repostlayout_14"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="0dp"
+                    android:visibility="gone" >
+
+                    <ImageView
+                        android:id="@+id/action_favorite_14"
+                        android:layout_width="18dp"
+                        android:layout_height="18dp"
+                        android:layout_marginBottom="17dp"
+                        android:layout_marginTop="13dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/newssdk_favorite_normal" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/action_repostlayout_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_alignParentRight="true"
+                    android:paddingLeft="24dp" >
+
+                    <ImageView
+                        android:id="@+id/action_repost_14"
+                        android:layout_width="18dp"
+                        android:layout_height="18dp"
+                        android:layout_marginBottom="17dp"
+                        android:layout_marginTop="13dp"
+                        android:src="@drawable/newssdk_icon_share_normal" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

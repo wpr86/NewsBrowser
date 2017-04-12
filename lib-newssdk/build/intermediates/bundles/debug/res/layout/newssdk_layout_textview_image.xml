@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+     >
+
+    <com.qihoo360.newssdk.ui.common.ColorTextView
+        android:id="@+id/ctv_scroll_title"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        
+        android:textColor="#ff2c2c2c"
+        android:textSize="@dimen/news_portal_title_bar_text" >
+    </com.qihoo360.newssdk.ui.common.ColorTextView>
+
+    <ImageView
+        android:id="@+id/iv_scroll_title_reddot"
+        android:layout_width="4dp"
+        android:layout_height="4dp"
+        android:layout_toRightOf="@id/ctv_scroll_title"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="2dp"
+        android:visibility="gone"
+        android:src="@drawable/newssdk_channel_red_dot" />
+</merge>

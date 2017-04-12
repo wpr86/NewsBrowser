@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="16dp" >
+
+    <RelativeLayout
+        android:id="@+id/news_channel_edit_imageview_closebtn"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="12dp"
+        android:layout_marginLeft="15dp" >
+
+        <ImageView
+            android:id="@+id/iv_page_close"
+	        android:layout_width="15dp"
+	        android:layout_height="15dp"
+	        android:scaleType="fitXY"
+	        android:src="@drawable/newssdk_channel_edit_colse"
+	        android:layout_alignParentRight="true" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/news_channel_edit_title"
+        android:layout_below="@id/news_channel_edit_imageview_closebtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="10dp" >
+
+        <TextView
+            android:id="@+id/tv_my_channel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:textColor="#1f1f1f"
+            android:text="@string/news_channel_edit_mychannel" />
+
+        <TextView
+            android:id="@+id/news_channel_edit_textview_tip"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textSize="13dp"
+            android:textColor="#9a9a9a"
+            android:text="@string/news_channel_edit_tips"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/news_channel_edit_textview_edit"
+            android:layout_width="56dp"
+            android:layout_height="24dp"
+            android:gravity="center"
+            android:textSize="14dp"
+            android:textColor="@color/common_bg_green"
+            android:text="@string/news_channel_edit_edit"
+            android:background="@drawable/newssdk_channel_edit_normal" />
+    </LinearLayout>
+
+    <com.qihoo360.newssdk.ui.channel.NewsChannelEditGroup
+        android:id="@+id/news_channel_edit_channelGroupEdit"
+        android:layout_below="@id/news_channel_edit_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="10dp" />
+
+    <TextView
+        android:id="@+id/news_channel_edit_textview_morechannel"
+        android:layout_below="@id/news_channel_edit_channelGroupEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:textSize="16dp"
+        android:textColor="#1f1f1f"
+        android:layout_marginLeft="15dp"
+        android:text="@string/news_channel_edit_morechannel" />
+
+    <com.qihoo360.newssdk.ui.channel.NewsChannelEditGroup
+        android:id="@+id/news_channel_edit_channelGroupUnedit"
+        android:layout_below="@id/news_channel_edit_textview_morechannel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="10dp" />
+</RelativeLayout>

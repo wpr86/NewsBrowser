@@ -1,0 +1,130 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="DefaultTheme">
+        <!-- common -->
+        <item name="newssdk_common_font_color">#2c2c2c</item>
+        <item name="newssdk_common_font_color_hasread">#878787</item>
+        <item name="newssdk_common_font_color_second_level">#878787</item>
+        <item name="newssdk_common_imager_loader_default_bg_color">#ffe8e8e8</item>
+        <item name="newssdk_common_bottom_layout_bg">#fff3f5f4</item>
+        <item name="newssdk_common_ignore_bg">#ffffff</item>
+        <item name="newssdk_common_ignore_top">@drawable/newssdk_icon_ignore_top</item>
+        <item name="newssdk_common_ignore_bottom">@drawable/newssdk_icon_ignore_bottom</item>
+        <!-- portal页 -->
+        <item name="newssdk_portal_bg_color">#ffffffff</item>
+        <!--portal title -->
+        <item name="newssdk_title_font_select_color">#ff29a600</item>
+        <item name="newssdk_title_font_normal_color">#ff2c2c2c</item>
+        <item name="newssdk_title_bg_color">#f5f5f5</item>
+        <item name="newssdk_title_edit_bg">@drawable/newssdk_channel_edit_bg</item>
+        <item name="newssdk_title_edit_add_img">@drawable/newssdk_channel_edit</item>
+        <item name="newssdk_title_divider_color">#ffe8e8e8</item>
+        <item name="newssdk_title_second_level_text_color">#444444</item>
+        <!-- listview -->
+        <item name="newssdk_listview_divider">@drawable/newssdk_listview_divider</item>
+        <item name="newssdk_listview_divider_video">@drawable/newssdk_listview_divider_video</item>
+        <!-- 更新条数提醒背景及字体颜色 -->
+        <item name="newssdk_tip_font_color">#278fd6</item>
+        <item name="newssdk_tip_bg_color">#d4eaf5</item>
+        <!-- 刚刚看到这里背景及字体颜色 -->
+        <item name="newssdk_just_read_font_color">#278fd6</item>
+        <item name="newssdk_just_read_bg_color">#f3f5f4</item>
+        <!-- 赞踩、评论、收藏、分享图标 -->>
+        <item name="newssdk_bury_normal_white">@drawable/newssdk_hand_down</item>
+        <item name="newssdk_favorite_normal_white">@drawable/newssdk_favorite_normal</item>
+        <item name="newssdk_icon_comment_white">@drawable/newssdk_icon_comment</item>
+        <item name="newssdk_icon_share_normal_white">@drawable/newssdk_icon_share_normal</item>
+        <item name="newssdk_likes_normal_white">@drawable/newssdk_hand_up</item>
+        <item name="newssdk_icon_videoshare_white">@drawable/newssdk_icon_videoshare</item>
+        <!-- 广告 -->
+        <item name="newssdk_apull_app_title">#4d4d4d</item>
+        <item name="newssdk_apull_app_secord_level">#999999</item>
+        <item name="newssdk_apull_app_ad">#b2b2b2</item>
+        <!-- 新闻模板颜色 -->
+        <item name="newssdk_news_card_divider">#ececec</item>
+        <item name="newssdk_news_card_title">#989898</item>
+        <item name="newssdk_news_card_care_divider">#dedede</item>
+        <item name="newssdk_news_card_care_bg">@drawable/newssdk_card_care_bg</item>
+        <item name="newssdk_news_zhongmei_add_stroke">#d6d6d6</item>
+        <item name="newssdk_news_ignore_pop">#ff29a600</item>
+        <!-- 频道编辑 -->
+        <item name="newssdk_channel_edit_font_color_select">#009900</item>
+        <item name="newssdk_channel_edit_edit_btn_bg">@drawable/newssdk_channel_edit_normal</item>
+        <item name="newssdk_channel_edit_font_color">#1f1f1f</item>
+        <item name="newssdk_channel_edit_bg">#f5f5f5</item>
+        <item name="newssdk_channel_edit_item_bg">@drawable/newssdk_news_channel_edit_bg</item>
+        <item name="newssdk_channel_edit_item_close">@drawable/newssdk_icon_close_news_channel
+        </item>
+        <item name="newssdk_channel_edit_page_close">@drawable/newssdk_channel_edit_colse</item>
+        <!-- 二级频道 -->
+        <item name="newssdk_sub_cahnnel_all_divider_color">#e8e8e8</item>
+        <!-- 新闻详情页 -->
+        <item name="newssdk_news_webview_root_bg">#ffffff</item>
+        <item name="newssdk_news_webview_title_bg">#fafafa</item>
+        <item name="newssdk_news_webview_title_divider0">#ffffff</item>
+        <item name="newssdk_news_webview_title_divider1">#dddddd</item>
+        <item name="newssdk_news_webview_title_divider2">#c7c7c7</item>
+        <item name="newssdk_news_webview_title_left_button">@drawable/newssdk_news_titlebar_back
+        </item>
+        <item name="newssdk_news_webview_title_close_button">@drawable/newssdk_news_titlebar_close
+        </item>
+        <item name="newssdk_news_webview_title_right_button">
+            @drawable/newssdk_news_titlebar_setting
+        </item>
+        <item name="newssdk_news_webview_title_text">#222222</item>
+        <!-- 本地频道 -->
+        <item name="newssdk_local_select_city_text_color">#1e1e1e</item>
+        <!-- 新闻native详情页 -->
+        <item name="newssdk_news_native_webview_adapter_bg">#ffffff</item>
+        <item name="newssdk_news_native_webview_tag_title_text">#212121</item>
+        <item name="newssdk_news_native_webview_tag_title_divider">#e7e7e7</item>
+        <item name="newssdk_news_native_webview_tag_title_divider_force">#19b955</item>
+        <item name="newssdk_news_native_webview_apull_divider">#e8e8e8</item>
+        <item name="newssdk_news_native_webview_ad_divider">#f7f7f7</item>
+        <!-- 视频详情页 -->
+        <item name="newssdk_news_video_adapter_bg">#ffffff</item>
+        <item name="newssdk_news_video_header_title_text">#2c2c2c</item>
+        <item name="newssdk_news_video_header_divider">#c8c8c8</item>
+        <!-- 评论详情页 -->
+        <item name="newssdk_news_comment_info_bg">#f3f4f5</item>
+        <item name="newssdk_news_comment_info_adapter_bg">#ffffff</item>
+        <!-- 新闻详情页进度条 -->
+        <item name="newssdk_webview_progress_drawable">@drawable/newssdk_webview_progressbar</item>
+        <!-- 视频播放器进度条 -->
+        <item name="newssdk_videoplayer_progress_drawable">@drawable/newssdk_progresslayerlist</item>
+    </style>
+
+    <!-- 蓝色主题 -->
+    <style name="BlueTheme" parent="@style/DefaultTheme">
+        <!--portal title -->
+        <item name="newssdk_title_font_select_color">#ff1D83E5</item>
+        <!-- 新闻模板颜色 -->
+        <item name="newssdk_news_ignore_pop">#ff1D83E5</item>
+        <!-- 频道编辑 -->
+        <item name="newssdk_channel_edit_font_color_select">#ff1D83E5</item>
+        <item name="newssdk_channel_edit_edit_btn_bg">@drawable/newssdk_channel_edit_blue</item>
+        <!-- 新闻详情页进度条 -->
+        <item name="newssdk_webview_progress_drawable">@drawable/newssdk_webview_progressbar_theme_blue</item>
+        <!-- 视频播放器进度条 -->
+        <item name="newssdk_videoplayer_progress_drawable">@drawable/newssdk_progresslayerlist_blue</item>
+        <!-- 众媒号的加号图标 -->
+        <item name="newssdk_media_news_19_icon">@drawable/newssdk_icon_add_zhongmei_blue</item>
+    </style>
+
+
+    <!-- 红色色主题 -->
+    <style name="RedTheme" parent="@style/DefaultTheme">
+        <!--portal title -->
+        <item name="newssdk_title_font_select_color">#ff0b14</item>
+        <!-- 新闻模板颜色 -->
+        <item name="newssdk_news_ignore_pop">#ff0b14</item>
+        <!-- 频道编辑 -->
+        <item name="newssdk_channel_edit_font_color_select">#ff0b14</item>
+        <item name="newssdk_channel_edit_edit_btn_bg">@drawable/newssdk_channel_edit_normal_red
+        </item>
+        <!-- 新闻详情页进度条 -->
+        <item name="newssdk_webview_progress_drawable">@drawable/newssdk_webview_progressbar</item>
+        <!-- 视频播放器进度条 -->
+        <item name="newssdk_videoplayer_progress_drawable">@drawable/newssdk_progresslayerlist</item>
+    </style>
+</resources>

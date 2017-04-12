@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="8dp"
+    android:background="#f4f5f6"
+    android:visibility="gone" >
+
+    <RelativeLayout
+        android:id="@+id/relative_listview_refresh"
+        android:layout_width="27dp"
+        android:layout_height="27dp"
+        android:layout_centerHorizontal="true" >
+
+	    <ImageView
+	        android:id="@+id/common_loading_icon"
+	        android:layout_width="15dp"
+	        android:layout_height="15dp"
+	        android:layout_centerInParent="true"
+	        android:scaleType="fitXY"
+	        android:src="@drawable/newssdk_task_redownload_new" />
+
+	    <com.qihoo360.newssdk.ui.common.CricleDrawable1
+	        android:id="@+id/cricle_listview_refresh"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_listview_refresh_tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/relative_listview_refresh"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/common_font_color_4"
+        android:textSize="10sp"
+        android:text="@string/pull_to_refresh"
+        android:layout_marginTop="4dp" />
+</RelativeLayout>

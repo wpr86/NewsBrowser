@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sdk_relatenews_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="11.5dp"
+     >
+    
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/cantiner_padding_left"
+    	android:paddingRight="@dimen/cantiner_padding_right"
+        >
+        <LinearLayout android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:paddingRight="5dp"
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical">
+        <TextView
+		    android:id="@+id/sdk_relatenews_title"
+		    style="@style/NewsTitle"
+		    android:ellipsize="end"
+		    android:maxLines="2"
+		    />
+        <TextView
+	        android:id="@+id/sdk_relatenews_desc"
+	        style="@style/NewsTime"
+	        android:layout_marginTop="5dp"
+	        android:layout_alignParentBottom="true" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/sdk_relatenews_large_image"
+        android:layout_width="108dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="6dp"
+        android:scaleType="fitXY" />
+    </LinearLayout>
+    <View android:id="@+id/sdk_relatenews_dividershort"
+        android:layout_height="0.5dp"
+        android:layout_width="match_parent"
+        android:background="#e8e8e8"
+        android:layout_marginTop="11.5dp"
+        android:layout_marginLeft="@dimen/cantiner_padding_left"
+        android:layout_marginRight="@dimen/cantiner_padding_right"
+        />
+    <View android:id="@+id/sdk_relatenews_dividerlong"
+        android:layout_height="0.5dp"
+        android:layout_width="match_parent"
+        android:background="#e8e8e8"
+        android:layout_marginTop="11.5dp"
+        android:visibility="gone"
+        />
+</LinearLayout>

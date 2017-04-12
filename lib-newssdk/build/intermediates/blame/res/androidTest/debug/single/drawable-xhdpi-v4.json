@@ -1,0 +1,742 @@
+[
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_icon_close_news_channel.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_icon_close_news_channel.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_common_loading_outside.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_common_loading_outside.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_icon_title_text.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_icon_title_text.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_webview_photosdialog_bg.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_webview_photosdialog_bg.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_icon_close.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_icon_close.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_repost_pressed.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_repost_pressed.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_app_star_light.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_app_star_light.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_icon_news_tip_areahot.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_icon_news_tip_areahot.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_icon_net_error.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_icon_net_error.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_icon_play.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_icon_play.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_ic_fastback.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_ic_fastback.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_hint_bg_black.9.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_hint_bg_black.9.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_channel_edit_green.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_channel_edit_green.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_appdetail_sw_pending.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_appdetail_sw_pending.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_appdetail_rating_bg_1.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_appdetail_rating_bg_1.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_app_star_gray.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_app_star_gray.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_app_ad_tip.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_app_ad_tip.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_care_add1.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_care_add1.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_location.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_location.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_ic_tosmall.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_ic_tosmall.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_icon_list_loading_pass.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_icon_list_loading_pass.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_input_whitebg.9.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_input_whitebg.9.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_ic_collection_selected.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_ic_collection_selected.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_icon_return_home.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_icon_return_home.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_news_dislike.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_news_dislike.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_channel_edit_normal.9.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_channel_edit_normal.9.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_icon_share_normal_white.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_icon_share_normal_white.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_title_arraw_down.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_title_arraw_down.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_appdetail_common_not_network_icon.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_appdetail_common_not_network_icon.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_second_level_top_bg.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_second_level_top_bg.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_ic_replay_pressed.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_ic_replay_pressed.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_favorite_normal.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_favorite_normal.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_video_reshare_pressed.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_video_reshare_pressed.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_icon_close_night.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_icon_close_night.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_listview_loading_bg.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_listview_loading_bg.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_text_cursor.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_text_cursor.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_hint_whitebg.9.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_hint_whitebg.9.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_icon_reply.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_icon_reply.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_sub_channel_bg.9.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_sub_channel_bg.9.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_appdetail_bottom_shadow.9.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_appdetail_bottom_shadow.9.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_bg_gray.9.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_bg_gray.9.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_channel_edit.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_channel_edit.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_ic_reduce.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_ic_reduce.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_hand_up.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_hand_up.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_news_titlebar_close.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_news_titlebar_close.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_news_titlebar_close_light.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_news_titlebar_close_light.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_ic_loading.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_ic_loading.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_news_titlebar_setting_light.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_news_titlebar_setting_light.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_appdetail_comment_title_all.9.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_appdetail_comment_title_all.9.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newsdk_followguide_tips_top.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newsdk_followguide_tips_top.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_gif_move_textpage_pressed.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_gif_move_textpage_pressed.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_portal_back_arrow.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_portal_back_arrow.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_ic_progress_night.9.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_ic_progress_night.9.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_channel_edit_normal_night.9.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_channel_edit_normal_night.9.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_task_redownload_new.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_task_redownload_new.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_ic_collection_w.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_ic_collection_w.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_icon_loading.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_icon_loading.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_neterror.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_neterror.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_news_channel_edit_bg_shade.9.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_news_channel_edit_bg_shade.9.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_channel_edit_trans.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_channel_edit_trans.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_title_arraw_up.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_title_arraw_up.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_webview_page_error_404.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_webview_page_error_404.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_hand_down.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_hand_down.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_heart_red.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_heart_red.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_icon_comment.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_icon_comment.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_appdetail_app_info_sep.9.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_appdetail_app_info_sep.9.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_ic_add.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_ic_add.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_huajiao_play.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_huajiao_play.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_icon_comment_white.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_icon_comment_white.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_dragguid_shadow.9.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_dragguid_shadow.9.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_input_bg_black.9.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_input_bg_black.9.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_zhongmei_bg.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_zhongmei_bg.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_new_channel_guide_tip.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_new_channel_guide_tip.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_icon_refresh.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_icon_refresh.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_care_added.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_care_added.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_appdetail_comment_title_hot.9.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_appdetail_comment_title_hot.9.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_appdetail_webview_loading.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_appdetail_webview_loading.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_common_loading_inside.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_common_loading_inside.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_icon_ignore_top.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_icon_ignore_top.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_followguide_add.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_followguide_add.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_large_default_icon.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_large_default_icon.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_icon_close_news_channel_night.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_icon_close_news_channel_night.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_img_loading.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_img_loading.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_video_reshare.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_video_reshare.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_webview_photosdialog_icon_takephotos.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_webview_photosdialog_icon_takephotos.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_hand_down_selected.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_hand_down_selected.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_comment_normal.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_comment_normal.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_appdetail_rating_bg_0.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_appdetail_rating_bg_0.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_vinfo_titleloading.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_vinfo_titleloading.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_news_titlebar_back.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_news_titlebar_back.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_sub_channel_top_bg.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_sub_channel_top_bg.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_channel_green_edit_bg.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_channel_green_edit_bg.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_icon_ignore_bottom2.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_icon_ignore_bottom2.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_common_btn_5_normal.9.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_common_btn_5_normal.9.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_icon_close_2.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_icon_close_2.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_icon_title_search.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_icon_title_search.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_ic_shafa.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_ic_shafa.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_appdetail_common_refresh_btn.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_appdetail_common_refresh_btn.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_news_titlebar_back_light.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_news_titlebar_back_light.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_down_imgdetails.9.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_down_imgdetails.9.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_hand_up_selected.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_hand_up_selected.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_bg_blue.9.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_bg_blue.9.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_arrawdown.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_arrawdown.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_followguide_like.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_followguide_like.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_back_button_image_detail.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_back_button_image_detail.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_icon_play_small.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_icon_play_small.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_icon_ignore_bottom_night.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_icon_ignore_bottom_night.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_appdetail_app_info_title_shadow.9.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_appdetail_app_info_title_shadow.9.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_channel_edit_close_light.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_channel_edit_close_light.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_appdetail_app_info_tag_bg.9.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_appdetail_app_info_tag_bg.9.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_ic_progress_blue.9.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_ic_progress_blue.9.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_icon_close_1.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_icon_close_1.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_ic_toscreen.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_ic_toscreen.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_icon_news_tip_zhibo.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_icon_news_tip_zhibo.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_channel_edit_bg.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_channel_edit_bg.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_appdetail_user_info_head_bg.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_appdetail_user_info_head_bg.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_icon_videoshare_white.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_icon_videoshare_white.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_channel_edit_normal_red.9.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_channel_edit_normal_red.9.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_followguide_cancel.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_followguide_cancel.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_arrow_select_city.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_arrow_select_city.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_icon_add_zhongmei.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_icon_add_zhongmei.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_app_atlas_icon.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_app_atlas_icon.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_alert_zancai_image.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_alert_zancai_image.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_ic_seekbarthumb.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_ic_seekbarthumb.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_comment_progress.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_comment_progress.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_care_add.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_care_add.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_titlebar_refresh.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_titlebar_refresh.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_bg_progress.9.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_bg_progress.9.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_appdetail_sw_start_n.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_appdetail_sw_start_n.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_comment_right_arrow.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_comment_right_arrow.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_bg_secondprogress.9.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_bg_secondprogress.9.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_news_titlebar_setting.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_news_titlebar_setting.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_appdetail_sw_cancel_n.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_appdetail_sw_cancel_n.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_icon_share_w.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_icon_share_w.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_mark_zhibo.9.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_mark_zhibo.9.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_care_added1.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_care_added1.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_video_bg_21.9.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_video_bg_21.9.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_ic_attentioned.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_ic_attentioned.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_appdetail_title_shadow.9.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_appdetail_title_shadow.9.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_ic_fastforward.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_ic_fastforward.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_ic_imginfo_back.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_ic_imginfo_back.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_listview_scan.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_listview_scan.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_news_like.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_news_like.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_appdetail_common_list_bg.9.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_appdetail_common_list_bg.9.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_common_title_bar_back.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_common_title_bar_back.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_news_default_fromicon.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_news_default_fromicon.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_channel_edit_colse.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_channel_edit_colse.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_setting_button_image.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_setting_button_image.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_comment_zan_selected.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_comment_zan_selected.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_ic_collection.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_ic_collection.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_listview_scrollbar.9.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_listview_scrollbar.9.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_appdetail_rating_bg_2.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_appdetail_rating_bg_2.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_hongbao_cancel_pressed.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_hongbao_cancel_pressed.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_ic_progress.9.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_ic_progress.9.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_icon_secord_level_search.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_icon_secord_level_search.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_webview_photosdialog_icon_photos.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_webview_photosdialog_icon_photos.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_icon_share.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_icon_share.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_followguide_bg.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_followguide_bg.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_repost_normal.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_repost_normal.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_comment_common_pressed.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_comment_common_pressed.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_comment_common_normal.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_comment_common_normal.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_channel_red_dot.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_channel_red_dot.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_icon_ignore_bottom.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_icon_ignore_bottom.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_icon_share_normal.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_icon_share_normal.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_channel_edit_blue.9.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_channel_edit_blue.9.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_likes_normal_white.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_likes_normal_white.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_icon_right_arrow.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_icon_right_arrow.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_appdetail_sw_pause_n.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_appdetail_sw_pause_n.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_ic_replay.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_ic_replay.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_bury_normal_white.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_bury_normal_white.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_icon_videoshare.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_icon_videoshare.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_img_faillogo.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_img_faillogo.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\in_the_editor.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\in_the_editor.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_icon_comment_w.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_icon_comment_w.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_gif_move_textpage_normal.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_gif_move_textpage_normal.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_icon_ignore_top2.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_icon_ignore_top2.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_favorite_normal_white.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_favorite_normal_white.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_ic_videopause.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_ic_videopause.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_icon_ignore_top_night.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_icon_ignore_top_night.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_ic_videoshare.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_ic_videoshare.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_icon_add_zhongmei_night.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_icon_add_zhongmei_night.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_favorite_pressed.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_favorite_pressed.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_icon_add_zhongmei_blue.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_icon_add_zhongmei_blue.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_common_btn_5_disabled.9.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_common_btn_5_disabled.9.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_ic_videoplay.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_ic_videoplay.png"
+    }
+]

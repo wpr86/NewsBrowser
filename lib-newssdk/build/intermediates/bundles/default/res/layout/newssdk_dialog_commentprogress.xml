@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 评论的进度框  -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent" >
+    
+    <FrameLayout android:layout_width="64dp"
+        android:layout_height="32dp"
+        android:layout_gravity="center"
+        android:background="@drawable/newssdk_rect_black">
+        <ProgressBar
+        android:id="@+id/progress"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:indeterminate="true"
+        android:layout_gravity="center"
+        android:progressDrawable="@drawable/newssdk_comment_progresslayer" />
+        
+    </FrameLayout>
+
+</FrameLayout>

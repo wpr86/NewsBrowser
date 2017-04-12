@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="news_main_city_name">
+        <item>北京</item>
+        <item>成都</item>
+        <item>福州</item>
+        <item>广州</item>
+        <item>贵阳</item>
+        <item>哈尔滨</item>
+        <item>海口</item>
+        <item>杭州</item>
+        <item>合肥</item>
+        <item>呼和浩特</item>
+        <item>济南</item>
+        
+        <item>昆明</item>
+        <item>拉萨</item>
+        <item>兰州</item>
+        <item>南昌</item>
+        <item>南京</item>
+        <item>南宁</item>
+        <item>上海</item>
+        <item>沈阳</item>
+        <item>石家庄</item>
+        <item>太原</item>
+        <item>天津</item>
+        
+        <item>乌鲁木齐</item>
+        <item>武汉</item>
+        <item>西安</item>
+        <item>西宁</item>
+        <item>银川</item>
+        <item>长春</item>
+        <item>长沙</item>
+        <item>郑州</item>
+        <item>重庆</item>
+    </string-array>
+
+    <string-array name="news_main_city_c">
+        <item>local_BeiJing</item>
+        <item>local_ChengDu_SiChuan</item>
+        <item>local_FuZhou_FuJian</item>
+        <item>local_GuangZhou_GuangDong</item>
+        <item>local_GuiYang_GuiZhou</item>
+        <item>local_HaErBin_HeiLongJiang</item>
+        <item>local_HaiKou_HaiNan</item>
+        <item>local_HangZhou_ZheJiang</item>
+        <item>local_HeFei_AnHui</item>
+        <item>local_HuHeHaoTe_NeiMengGu</item>
+        <item>local_JiNan_ShanDong</item>
+        
+        <item>local_KunMing_YunNan</item>
+        <item>local_LaSa_XiZang</item>
+        <item>local_LanZhou_GanSu</item>
+        <item>local_NanChang_JiangXi</item>
+        <item>local_NanJing_JiangSu</item>
+        <item>local_NanNing_GuangXi</item>
+        <item>local_ShangHai</item>
+        <item>local_ShenYang_LiaoNing</item>
+        <item>local_ShiJiaZhuang_HeBei</item>
+        <item>local_TaiYuan_ShanXi</item>
+        <item>local_TianJin</item>
+        
+        <item>local_WuLuMuQi_XinJiang</item>
+        <item>local_WuHan_HuBei</item>
+        <item>local_XiAn_ShanXi1</item>
+        <item>local_XiNing_QingHai</item>
+        <item>local_YinChuan_NingXia</item>
+        <item>local_ChangChun_JiLin</item>
+        <item>local_ChangSha_HuNan</item>
+        <item>local_ZhengZhou_HeNan</item>
+        <item>local_ChongQing</item>
+    </string-array>
+    
+    <string-array name="news_main_city_index">
+        <item>B</item>
+        <item>C</item>
+        <item>F</item>
+        <item>G</item>
+        <item>G</item>
+        <item>H</item>
+        <item>H</item>
+        <item>H</item>
+        <item>H</item>
+        <item>H</item>
+        <item>J</item>
+        
+        <item>K</item>
+        <item>L</item>
+        <item>L</item>
+        <item>N</item>
+        <item>N</item>
+        <item>N</item>
+        <item>S</item>
+        <item>S</item>
+        <item>S</item>
+        <item>T</item>
+        <item>T</item>
+        
+        <item>W</item>
+        <item>W</item>
+        <item>X</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>C</item>
+        <item>C</item>
+        <item>Z</item>
+        <item>C</item>
+    </string-array>
+</resources>

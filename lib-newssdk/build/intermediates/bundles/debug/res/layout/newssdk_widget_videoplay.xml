@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 视频全屏播放页面 -->
+<com.qihoo360.newssdk.video.widget.ScreenVideoPlayer xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout android:id="@+id/vp_videocc"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <RelativeLayout
+        android:id="@+id/vp_videoContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000" >
+
+        <VideoView
+            android:id="@+id/vp_videov"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:background="#000000"
+             />
+
+        <ImageView android:id="@+id/vp_shadow"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            android:background="#000000"/>
+
+        <FrameLayout
+            android:id="@+id/vp_replaycontainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#99000000"
+            android:clickable="false"
+            android:visibility="invisible" >
+            <LinearLayout android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+                <TextView
+                android:id="@+id/vp_replay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:drawableTop="@drawable/newssdk_ic_replay_seletor"
+                android:drawablePadding="6dp"
+                android:text="@string/video_btn_replay"
+                android:textColor="@color/white"
+                android:textSize="11sp" />
+            <TextView
+                android:id="@+id/vp_reshare"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="32dp"
+                android:gravity="center_horizontal"
+                android:drawableTop="@drawable/newssdk_video_reshare_selector"
+                android:drawablePadding="6dp"
+                android:text="分享"
+                android:textColor="@color/white"
+                android:textSize="11sp" />
+            </LinearLayout>
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/vp_progresscontainer"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:background="#66000000"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/vp_progresstext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="10sp" />
+
+            <SeekBar
+                android:id="@+id/vp_progressbar"
+                style="@style/ProgressBar_Mini"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/vp_progressduration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="10sp"
+                android:layout_marginRight="15dp" />
+
+            <ImageView
+                android:id="@+id/vp_switchscreen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/newssdk_ic_switchscreen"
+                 />
+        </LinearLayout>
+
+		<include android:id="@+id/vp_touchprogresscontainer"
+        android:layout_width="177dp"
+        android:layout_height="69dp"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        layout="@layout/newssdk_view_videoseekprogress"/>
+
+        <include android:id="@+id/vp_volumecontainer"
+        android:layout_width="46dp"
+        android:layout_height="162dp"
+        android:layout_marginLeft="47dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:visibility="gone"
+        layout="@layout/newssdk_view_volumelayout"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:paddingLeft="16dp" >
+
+            <ImageView
+                android:id="@+id/vp_closebtn"
+                android:layout_width="46dp"
+                android:layout_height="46dp"
+                android:layout_gravity="top|left"
+                android:scaleType="centerInside"
+                android:layout_marginLeft="-16dp"
+                android:src="@drawable/newssdk_common_title_bar_back"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/vp_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:paddingTop="12dp"
+                android:paddingBottom="12dp"
+                android:paddingRight="16dp"
+                android:textColor="#ffffff"
+                android:textSize="16sp"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <com.qihoo360.newssdk.video.widget.AutoRotateImageView
+            android:id="@+id/vp_loading"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/newssdk_ic_loading"
+            android:visibility="gone"/>
+
+
+        <ImageView
+            android:id="@+id/vp_playbtn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:scaleType="centerInside"
+            android:visibility="visible"
+            android:src="@drawable/newssdk_ic_videoplay" />
+        <ProgressBar
+                android:id="@+id/vp_progressbarmini"
+                style="@style/ProgressBar_Mini"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    </FrameLayout>
+</com.qihoo360.newssdk.video.widget.ScreenVideoPlayer>

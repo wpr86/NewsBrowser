@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.qihoo360.newssdk.comment.InfoPageCommentBar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:id="@+id/cbar_hintcontainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+       	android:background="@color/commentbar_bg_gray"
+        android:orientation="vertical" >
+
+        <View
+            android:id="@+id/cbar_divider"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#c8c8c8" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:visibility="visible" >
+
+            <TextView
+                android:id="@+id/cbar_inputhinttext"
+                android:layout_width="0dp"
+                android:layout_height="32dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="35dp"
+                android:layout_weight="1"
+                android:background="@drawable/newssdk_hint_whitebg"
+                android:gravity="center_vertical"
+                android:hint="写评论..."
+                android:paddingLeft="8dp"
+                android:textColor="#FF989898"
+                android:textSize="13sp" />
+
+            <RelativeLayout
+                android:id="@+id/cbar_cnumcontainer"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="9dp" >
+
+                <ImageView
+                    android:id="@+id/cbar_commenticon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/newssdk_icon_reply" />
+
+                <TextView
+                    android:id="@+id/cbar_commentnumV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@id/cbar_commenticon"
+                    android:layout_marginBottom="-8dp"
+                    android:layout_marginLeft="-10dp"
+                    android:layout_toRightOf="@id/cbar_commenticon"
+                    android:background="@drawable/newssdk_rect_red_bg"
+                    android:singleLine="true"
+                    android:textColor="#ffffff"
+                    android:textSize="8dp"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/cbar_likebtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="20dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/newssdk_collection_b_selector" />
+
+            <ImageView
+                android:id="@+id/cbar_sharebtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="20dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/newssdk_ic_videoshare" />
+        </LinearLayout>
+    </LinearLayout>
+
+</com.qihoo360.newssdk.comment.InfoPageCommentBar>

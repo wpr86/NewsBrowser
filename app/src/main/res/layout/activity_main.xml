@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:newssdk="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:minHeight="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:layout_collapseMode="pin">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="@string/app_name"
+                android:textColor="@color/white"
+                android:layout_centerVertical="true"
+                />
+            <ImageView
+                android:id="@+id/title_search_image"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_alignParentRight="true"
+                android:layout_margin="16dp"
+                android:visibility="gone"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_search_toolbar" />
+        </RelativeLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+    <com.tj.newsbrowser.view.NewsScrollView
+        android:id="@+id/portal_root_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar"
+        android:fillViewport="true"
+        android:overScrollMode="never"
+        android:visibility="visible"
+        android:background="#707070"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:id="@+id/portal_root"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/appbar_height"
+                android:background="?attr/colorPrimary">
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/search_card"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@color/white"
+                    app:cardCornerRadius="2dp">
+
+                    <RelativeLayout
+                        android:id="@+id/search_rl"
+                        android:layout_width="match_parent"
+                        android:layout_height="36dp"
+                        android:clickable="true">
+                        <ImageView
+                            android:id="@+id/search_image"
+                            android:layout_width="32dp"
+                            android:layout_height="32dp"
+                            android:layout_margin="4dp"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/ic_search"/>
+                        <TextView
+                            android:id="@+id/search_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_toRightOf="@id/search_image"
+                            android:layout_toEndOf="@id/search_image"
+                            android:textSize="18dp"
+                            android:text="请输入搜索的内容"/>
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:orientation="horizontal"
+                    android:layout_below="@+id/search_card">
+                    <RelativeLayout
+                        android:id="@+id/navigation_rl"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            android:id="@+id/navigation_image"
+                            android:layout_width="32dp"
+                            android:layout_height="32dp"
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/ic_navigation"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/navigation_image"
+                            android:layout_centerHorizontal="true"
+                            android:text="导航"/>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/video_rl"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            android:id="@+id/video_image"
+                            android:layout_width="32dp"
+                            android:layout_height="32dp"
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/ic_video"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/video_image"
+                            android:layout_centerHorizontal="true"
+                            android:text="视频"/>
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:id="@+id/read_rl"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            android:id="@+id/read_image"
+                            android:layout_width="32dp"
+                            android:layout_height="32dp"
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/ic_read"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/read_image"
+                            android:layout_centerHorizontal="true"
+                            android:text="小说"/>
+                    </RelativeLayout>
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <com.qihoo360.newssdk.exportui.NewsEmbedListView
+                android:id="@+id/embed_list_view"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                newssdk:newssdk_scene="29"
+                newssdk:newssdk_subscene="1"
+                newssdk:newssdk_channel="youlike"
+                newssdk_scene_theme = "1"
+                newssdk:newssdk_enable_pull_to_refresh="true">
+            </com.qihoo360.newssdk.exportui.NewsEmbedListView>
+        </LinearLayout>
+    </com.tj.newsbrowser.view.NewsScrollView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/ic_home"/>
+</RelativeLayout>

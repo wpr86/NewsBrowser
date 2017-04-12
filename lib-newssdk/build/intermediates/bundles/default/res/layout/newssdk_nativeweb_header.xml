@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/newswebnative_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff" >
+
+    <com.qihoo360.newssdk.ui.common.NewsWebView
+        android:id="@+id/newswebnative_newswebview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    </com.qihoo360.newssdk.ui.common.NewsWebView>
+    <ProgressBar
+        android:id="@+id/newswebnative_pb_progress"
+        style="@style/ProgressBar_WebView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:progress="0" />
+
+</RelativeLayout>

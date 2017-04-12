@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_layout_52"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/cantiner_padding_left"
+    android:paddingTop="12dp">
+
+    <TextView
+        android:id="@+id/app_short_desc_52"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:textColor="#2c2c2c"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:layout_marginRight="@dimen/cantiner_padding_right"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:paddingRight="@dimen/cantiner_padding_right">
+
+        <ImageView
+            android:id="@+id/app_large_image_52"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:scaleType="centerCrop"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="41.3dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:layout_marginRight="@dimen/cantiner_padding_right">
+
+            <TextView
+                android:id="@+id/app_type_52"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10sp"           
+                android:textColor="@color/common_font_color_5"
+                android:padding="0dp"
+                android:gravity="center"
+             	android:layout_marginRight="4dp"
+             	android:singleLine="true"
+             	android:ellipsize="end"
+                android:text="@string/expend"/>
+
+            <TextView
+                android:id="@+id/app_time_52"
+                style="@style/NewsTime"/>
+
+            <TextView
+                android:id="@+id/app_source_52"
+                style="@style/NewsSource"
+                android:layout_width="0dp"
+                android:layout_weight="1"/>
+
+            <com.qihoo360.newssdk.ui.common.TextProgressBar
+                android:id="@+id/app_progress_52"
+                android:layout_width="60dp"
+                android:layout_height="22dp"
+                android:indeterminateOnly="false"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/app_ignore_52"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="-15dp">
+
+            <ImageView
+                android:layout_width="18.7dp"
+                android:layout_height="13.3dp"
+                android:layout_marginLeft="9dp"
+                android:layout_marginRight="18.7dp"
+                android:layout_marginTop="14dp"
+                android:layout_marginBottom="14dp"
+                android:background="@drawable/newssdk_icon_close_1" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

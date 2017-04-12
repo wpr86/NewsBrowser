@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/splashad_adcontainaer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+         >
+
+        <com.qihoo360.newssdk.ui.common.GifView
+            android:id="@+id/splashad_gifview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" 
+            />
+
+        <ImageView
+            android:id="@+id/splashad_imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop" />
+
+        <com.qihoo360.newssdk.ui.common.SplashSkipBtn
+            android:id="@+id/splashad_skipbtn"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_gravity="top|right"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="@string/newssdk_splash_skip"
+            android:textColor="#FFFFFF"
+            android:textSize="9dp" />
+    </FrameLayout>

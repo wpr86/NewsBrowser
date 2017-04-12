@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/vinfo_titlecontainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="16dp" >
+
+        <TextView
+            android:id="@+id/vinfo_titlev"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:maxLines="3"
+            android:textColor="#222222"
+            android:textSize="17sp" />
+
+        <ImageView
+            android:id="@+id/vinfo_titlearraw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:src="@drawable/newssdk_title_arraw_selector" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/vinfo_playcount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/newssdk_vinfo_pcount"
+        android:textSize="12dp" />
+
+    <LinearLayout
+        android:id="@+id/vinfo_ptimecontainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/vinfo_ptime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/newssdk_vinfo_pcount"
+            android:textSize="12dp" />
+        
+        <TextView
+            android:id="@+id/vinfo_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/newssdk_vinfo_pcount"
+            android:textSize="12dp" 
+            android:maxLines="10"
+            android:ellipsize="end"/>
+
+        <TextView
+            android:id="@+id/vinfo_tagv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/newssdk_vinfo_pcount"
+            android:textSize="12dp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp" >
+
+        <TextView
+            android:id="@+id/vinfo_zan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="16dp"
+            android:drawablePadding="5dp"
+            android:textColor="#878787"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/vinfo_cai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="38dp"
+            android:layout_marginTop="16dp"
+            android:layout_toRightOf="@id/vinfo_zan"
+            android:drawablePadding="5dp"
+            android:textColor="#878787"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/vinfo_zananiview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/vinfo_zan"
+            android:layout_marginBottom="-20dp"
+            android:text="+1"
+            android:textColor="@color/likes_bury_num"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/vinfo_caianiview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/vinfo_cai"
+            android:layout_alignLeft="@id/vinfo_cai"
+            android:layout_marginBottom="-20dp"
+            android:text="+1"
+            android:textColor="@color/likes_bury_num"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <View android:id="@+id/vinfo_zmtdivider"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#c8c8c8"
+        android:layout_marginTop="16dp" />
+
+    <LinearLayout
+        android:id="@+id/vinfo_zmtcontainer"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp" >
+
+        <com.qihoo360.newssdk.ui.common.AvatarIconView
+            android:id="@+id/vinfo_zmtAvatar"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginRight="8dp"
+            android:gravity="center"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/vinfo_zmtname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:layout_marginRight="20dp"
+            android:textColor="#505050"
+            android:textSize="15dp" />
+		<View android:layout_width="0dp"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"/>
+        <com.qihoo360.newssdk.video.widget.AutoRotateImageView
+            android:id="@+id/vinfo_zmtloading"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginRight="7dp"
+            android:src="@drawable/newssdk_vinfo_titleloading"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/vinfo_zmtattention"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+ 关注"
+            android:textColor="@color/newssdk_attention_seletor"
+            android:textSize="15dp"
+            android:drawablePadding="3dp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/vinfo_zmtdivider2"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#c8c8c8" />
+
+    <com.qihoo360.newssdk.ui.common.NetErrorView
+        android:id="@+id/vinfo_neterror"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <com.qihoo360.newssdk.ui.common.EmptyCommentView
+        android:id="@+id/vinfo_emptyview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:visibility="gone" />
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:background="#ffffff">
+    <TextView  
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:gravity="center"
+        android:textSize="14dp"
+        android:textColor="#878787"
+        android:text="查看更多"
+        android:drawablePadding="3dp"
+        android:layout_gravity="center_horizontal"
+        android:drawableRight="@drawable/newssdk_arrawdown"
+        />
+    <View
+		android:id="@+id/newssdk_relate_morefooter_divider"
+		android:layout_width="match_parent"
+	    android:layout_height="0.5dp"
+	    android:background="#e8e8e8"
+	    />
+
+</LinearLayout>

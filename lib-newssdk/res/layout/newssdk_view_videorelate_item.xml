@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 相关视频item -->
+<com.qihoo360.newssdk.video.view.RelateVideoView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="12dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp" >
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:layout_gravity="center_vertical"
+            android:paddingRight="7dp" >
+
+            <TextView
+                android:id="@+id/relate_title"
+                style="@style/NewsTitle"
+                android:ellipsize="end"
+                android:layout_alignParentTop="true" />
+
+            <LinearLayout
+                android:layout_below="@id/relate_title"
+                android:layout_marginTop="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" 
+                >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="2dp"
+                     >
+
+                    <TextView
+                        android:id="@+id/relate_from"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:textColor="#878778"
+                        android:textSize="12dp" />
+
+                    <TextView
+                        android:id="@+id/relate_playcount"
+                        style="@style/NewsComment"
+                        android:layout_marginLeft="10dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <FrameLayout
+            android:layout_width="108dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp" >
+
+            <ImageView
+                android:id="@+id/relate_image"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:id="@+id/relate_playtime"
+                style="@style/NewsImgNum"
+                android:layout_width="44dp"
+                android:visibility="visible"
+                android:layout_height="20dp" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/newssdk_videorelate_divider"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="15dp"
+        android:background="#e8e8e8" />
+
+</com.qihoo360.newssdk.video.view.RelateVideoView>

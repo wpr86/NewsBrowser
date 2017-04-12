@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:paddingLeft="64dip"
+    android:paddingRight="12dip"
+    >
+
+    <TextView
+        android:id="@+id/comment_reply_more_all"
+        android:layout_width="match_parent"
+        android:layout_height="32dip"
+        android:background="#f6f1f1"
+        android:textSize="12dip"
+        android:textColor="#999797"
+        android:gravity="center"
+        />
+
+    <View
+        android:id="@+id/comm_reply_more_block"
+        android:layout_below="@id/comment_reply_more_all"
+        android:layout_width="match_parent"
+        android:layout_height="13dip"
+        android:background="@null"
+        />
+</RelativeLayout>

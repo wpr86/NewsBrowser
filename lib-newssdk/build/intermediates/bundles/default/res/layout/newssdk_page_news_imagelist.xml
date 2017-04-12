@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <FrameLayout
+        android:id="@+id/news_image_alphabg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000" >
+    </FrameLayout>
+
+    <com.qihoo360.newssdk.ui.photowall.SliderViewPager
+        android:id="@+id/news_image_pager"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent" />
+
+    <com.qihoo360.newssdk.ui.common.NetErrorView
+        android:id="@+id/news_image_neterror"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+    <com.qihoo360.newssdk.ui.common.CommonTitleBar
+        android:id="@+id/news_image_title_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"/>
+
+    <LinearLayout
+        android:id="@+id/news_image_containerbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/news_img_titlebg"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/news_image_description"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:maxHeight="200dp"
+            android:minHeight="60dp"
+            android:paddingBottom="8dp"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:paddingTop="16dp"
+            android:textColor="#c9c9c9"
+            android:textSize="16dp" />
+
+        <include
+            android:id="@+id/news_image_commentbar"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            layout="@layout/newssdk_view_commentbar" >
+        </include>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/news_image_h5tipcontainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/news_image_h5pageNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/news_image_h5save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="保存"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+    </FrameLayout>
+
+</RelativeLayout>

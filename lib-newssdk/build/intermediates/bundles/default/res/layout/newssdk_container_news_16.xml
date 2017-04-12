@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:autorotate="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/news_root_layout_16"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="13dp" >
+
+        <TextView
+            android:id="@+id/beauty_title_16"
+            style="@style/essay_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="2" />
+
+        <RelativeLayout
+            android:id="@+id/beauty_container_16"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+                                 
+            <ImageView
+	            android:id="@+id/beauty_image_16A"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:scaleType="centerCrop"/>
+            
+            <com.qihoo360.newssdk.video.widget.AutoRotateImageView 
+                android:id="@+id/newssdk_imag_loading_16"
+                android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_centerInParent="true"
+		        android:src="@drawable/newssdk_icon_loading"
+		        android:visibility="gone"
+		        autorotate:newssdk_autoRotateEnable="true"
+		        autorotate:newssdk_rotate_CW="true"/>                                   
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/user_action_layout_16"
+            android:layout_width="fill_parent"
+            android:layout_height="51dp"
+            android:orientation="horizontal" >
+
+            <RelativeLayout
+                android:id="@+id/action_likes_container_16"
+                android:layout_width="76dp"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/likes_addone_16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="0dp"
+                    android:text="+1"
+                    android:textColor="@color/likes_bury_num"
+                    android:textSize="12dp"
+                    android:textStyle="bold"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:id="@+id/action_likes_16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginTop="17dp"
+                    android:gravity="center"
+                    android:scaleType="fitXY" >
+
+                    <ImageView
+                        android:id="@+id/action_likes_image_16"
+                        android:layout_width="18dp"
+                        android:layout_height="18dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/newssdk_hand_up" />
+
+                    <TextView
+                        android:id="@+id/likes_num_16"
+                        style="@style/essay_image_list_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="5dp" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/action_bury_container_16"
+                android:layout_width="69dp"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/bury_addone_16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="0dp"
+                    android:text="+1"
+                    android:textColor="@color/likes_bury_num"
+                    android:textSize="12dp"
+                    android:textStyle="bold"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:id="@+id/action_bury_16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginTop="17dp"
+                    android:gravity="center"
+                    android:scaleType="fitXY" >
+
+                    <ImageView
+                        android:id="@+id/action_bury_image_16"
+                        android:layout_width="18dp"
+                        android:layout_height="18dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/newssdk_hand_down" />
+
+                    <TextView
+                        android:id="@+id/bury_num_16"
+                        style="@style/essay_image_list_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="5dp" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/action_comment_container_16"
+                android:layout_width="69dp"
+                android:layout_height="match_parent" >
+
+                <LinearLayout
+                    android:id="@+id/action_comment_16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginTop="17dp"
+                    android:gravity="center"
+                    android:scaleType="fitXY" >
+
+                    <ImageView
+                        android:id="@+id/action_comment_image_16"
+                        android:layout_width="18dp"
+                        android:layout_height="18dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/newssdk_icon_comment" />
+
+                    <TextView
+                        android:id="@+id/comment_num_16"
+                        style="@style/essay_image_list_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="5dp" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/favorite_repost_layout_16"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent" >
+
+                <LinearLayout
+                    android:id="@+id/action_favoritelayout_16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_alignWithParentIfMissing="true"
+                    android:layout_toLeftOf="@+id/action_repostlayout_16"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="0dp"
+                    android:visibility="gone" >
+
+                    <ImageView
+                        android:id="@+id/action_favorite_16"
+                        android:layout_width="18dp"
+                        android:layout_height="18dp"
+                        android:layout_marginBottom="17dp"
+                        android:layout_marginTop="16dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/newssdk_favorite_normal" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/action_repostlayout_16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_alignParentRight="true"
+                    android:paddingLeft="24dp" >
+
+                    <ImageView
+                        android:id="@+id/action_repost_16"
+                        android:layout_width="18dp"
+                        android:layout_height="18dp"
+                        android:layout_marginBottom="17dp"
+                        android:layout_marginTop="16dp"
+                        android:src="@drawable/newssdk_icon_share_normal" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

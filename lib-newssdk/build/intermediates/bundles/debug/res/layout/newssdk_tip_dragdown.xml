@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--提示下滑退出的引导  -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="190dp"
+    android:background="@drawable/newssdk_dragguid_shadow" >
+
+    <LinearLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|top"
+        android:orientation="horizontal">
+        <ImageView android:layout_width="wrap_content"
+            android:layout_height="130dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/newssdk_down_imgdetails"/>
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="下\n滑\n退\n出\n图\n集"
+        android:layout_gravity="center_vertical"
+        android:textColor="@color/white"
+        android:textSize="14dp" />
+    </LinearLayout>
+</FrameLayout>

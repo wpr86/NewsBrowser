@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.qihoo360.newssdk.video.widget.ValumeProgressView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="46dp"
+    android:layout_height="162dp"
+    android:gravity="center"
+    android:background="#66000000"
+    android:orientation="vertical" >
+	<ImageView android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:scaleType="centerInside"
+	    android:src="@drawable/newssdk_ic_add"
+	    />
+	<com.qihoo360.newssdk.video.widget.VerticalProgressBar android:id="@+id/volume_progress"
+	    android:layout_width="7dp"
+	    android:layout_height="84dp"
+	    android:background="@drawable/newssdk_bg_progress"
+	    android:src="@drawable/newssdk_ic_progress"
+	    android:scaleType="fitXY"
+	    android:layout_marginTop="10dp"
+	    android:layout_marginBottom="10dp"
+	    />
+	<ImageView android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:scaleType="centerInside"
+	    android:src="@drawable/newssdk_ic_reduce"/>
+
+</com.qihoo360.newssdk.video.widget.ValumeProgressView>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="GifView">
+        <attr name="newssdk_gif" format="reference" />
+        <attr name="newssdk_paused" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="CustomTheme">
+        <attr name="newssdk_gifViewStyle" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="AutoRotate">
+        <attr name="newssdk_autoRotateEnable" format="boolean"></attr>
+        <attr name="newssdk_rotate_CW" format="boolean"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="NewsSDKAttr">
+        <attr name="newssdk_scene" format="integer"></attr>
+        <attr name="newssdk_subscene" format="integer"></attr>
+        <attr name="newssdk_channel" format="string"></attr>
+        <attr name="newssdk_refer_scene" format="integer"></attr>
+        <attr name="newssdk_refer_subscene" format="integer"></attr>
+        <attr name="newssdk_scene_title_pos" format="integer"></attr>
+        <attr name="newssdk_scene_theme" format="integer"></attr>
+        <attr name="newssdk_enable_pull_to_refresh" format="boolean"></attr>
+        <attr name="newssdk_enable_inview_searchbar" format="boolean"></attr>
+        <attr name="newssdk_force_hide_ignore_button" format="boolean"></attr>
+        <attr name="newssdk_force_jump_video_detail" format="boolean"></attr>
+        <attr name="newssdk_force_show_on_top" format="boolean"></attr>
+        <attr name="newssdk_force_show_fullscreen" format="boolean"></attr>
+        <attr name="newssdk_enable_no_image_mode" format="boolean"></attr>
+        <attr name="newssdk_custom_view_width" format="integer"></attr>
+        <attr name="newssdk_force_ignore_padding" format="boolean"></attr>
+        <attr name="newssdk_custom_stype" format="string"></attr>
+        <attr name="newssdk_support_return_home" format="boolean"></attr>
+    </declare-styleable>
+
+    <!-- <declare-styleable name="ThemeTitleAttr">
+        <attr name="newssdk_title_font_select_color" format="color|reference"></attr>
+        <attr name="newssdk_title_font_normal_color" format="color|reference"></attr>
+        <attr name="newssdk_title_bg_color" format="color"></attr>
+        <attr name="newssdk_title_edit_bg" format="reference"></attr>
+        <attr name="newssdk_title_edit_add_img" format="reference"></attr>
+        <attr name="newssdk_title_divider_color" format="color|reference"></attr>
+    </declare-styleable> -->
+
+
+    <declare-styleable name="NewsSDKTheme">
+        <!-- common -->
+        <attr name="newssdk_common_font_color" format="color|reference"></attr>
+        <attr name="newssdk_common_font_color_hasread" format="color|reference"></attr>
+        <attr name="newssdk_common_font_color_second_level" format="color|reference"></attr>
+        <attr name="newssdk_common_imager_loader_default_bg_color" format="color|reference"></attr>
+        <attr name="newssdk_common_bottom_layout_bg" format="color|reference"></attr>
+        <attr name="newssdk_common_ignore_bg" format="color|reference"></attr>
+        <attr name="newssdk_common_ignore_top" format="color|reference"></attr>
+        <attr name="newssdk_common_ignore_bottom" format="color|reference"></attr>
+        <!-- portal页 -->
+        <attr name="newssdk_portal_bg_color" format="color|reference"></attr>
+        <!-- 频道title -->
+        <attr name="newssdk_title_font_select_color" format="color|reference"></attr>
+        <attr name="newssdk_title_font_normal_color" format="color|reference"></attr>
+        <attr name="newssdk_title_bg_color" format="color|reference"></attr>
+        <attr name="newssdk_title_edit_bg" format="reference"></attr>
+        <attr name="newssdk_title_edit_add_img" format="reference"></attr>
+        <attr name="newssdk_title_divider_color" format="color|reference"></attr>
+        <attr name="newssdk_title_second_level_text_color" format="color|reference"></attr>
+        <!-- listview -->
+        <attr name="newssdk_listview_divider" format="reference"></attr>
+        <attr name="newssdk_listview_divider_video" format="reference"></attr>
+        <!-- 更新条数提醒背景及字体颜色 -->
+        <attr name="newssdk_tip_font_color" format="color|reference"></attr>
+        <attr name="newssdk_tip_bg_color" format="color|reference"></attr>
+        <!-- 刚刚看到这里背景及字体颜色 -->
+        <attr name="newssdk_just_read_font_color" format="color|reference"></attr>
+        <attr name="newssdk_just_read_bg_color" format="color|reference"></attr>
+        <!-- 赞踩、评论、收藏、分享白色主题图标 -->>
+        <attr name="newssdk_bury_normal_white" format="reference"></attr>
+        <attr name="newssdk_favorite_normal_white" format="reference"></attr>
+        <attr name="newssdk_icon_comment_white" format="reference"></attr>
+        <attr name="newssdk_icon_share_normal_white" format="reference"></attr>
+        <attr name="newssdk_likes_normal_white" format="reference"></attr>
+        <attr name="newssdk_icon_videoshare_white" format="reference"></attr>
+        <!-- 广告模板的字体颜色 -->
+        <attr name="newssdk_apull_app_title" format="color|reference"></attr>
+        <attr name="newssdk_apull_app_secord_level" format="color|reference"></attr>
+        <attr name="newssdk_apull_app_ad" format="color|reference"></attr>
+        <!-- 新闻模板颜色 -->
+        <attr name="newssdk_news_card_divider" format="color|reference"></attr>
+        <attr name="newssdk_news_card_title" format="color|reference"></attr>
+        <attr name="newssdk_news_card_care_divider" format="color|reference"></attr>
+        <attr name="newssdk_news_card_care_bg" format="color|reference"></attr>
+        <attr name="newssdk_news_zhongmei_add_stroke" format="color|reference"></attr>
+        <attr name="newssdk_news_ignore_pop" format="color|reference"></attr>
+        <!-- 频道编辑 -->
+        <attr name="newssdk_channel_edit_font_color_select" format="color|reference"></attr>
+        <attr name="newssdk_channel_edit_font_color" format="color|reference"></attr>
+        <attr name="newssdk_channel_edit_edit_btn_bg" format="reference"></attr>
+        <attr name="newssdk_channel_edit_bg" format="color|reference"></attr>
+        <attr name="newssdk_channel_edit_item_bg" format="reference"></attr>
+        <attr name="newssdk_channel_edit_item_close" format="reference"></attr>
+        <attr name="newssdk_channel_edit_page_close" format="reference"></attr>
+        <!-- 二级频道 -->
+        <attr name="newssdk_sub_cahnnel_all_divider_color" format="reference|color"></attr>
+        <!-- 新闻详情页 -->
+        <attr name="newssdk_news_webview_root_bg" format="color|reference"></attr>
+        <attr name="newssdk_news_webview_title_bg" format="color|reference"></attr>
+        <attr name="newssdk_news_webview_title_divider0" format="color|reference"></attr>
+        <attr name="newssdk_news_webview_title_divider1" format="color|reference"></attr>
+        <attr name="newssdk_news_webview_title_divider2" format="color|reference"></attr>
+        <attr name="newssdk_news_webview_title_left_button" format="reference"></attr>
+        <attr name="newssdk_news_webview_title_close_button" format="reference"></attr>
+        <attr name="newssdk_news_webview_title_right_button" format="reference"></attr>
+        <attr name="newssdk_news_webview_title_text" format="color|reference"></attr>
+        <!-- 本地频道 -->
+        <attr name="newssdk_local_select_city_text_color" format="color|reference"></attr>
+        <!-- 新闻native详情页 -->
+        <attr name="newssdk_news_native_webview_adapter_bg" format="color|reference"></attr>
+        <attr name="newssdk_news_native_webview_tag_title_text" format="color|reference"></attr>
+        <attr name="newssdk_news_native_webview_tag_title_divider" format="color|reference"></attr>
+        <attr name="newssdk_news_native_webview_tag_title_divider_force" format="color|reference"></attr>
+        <attr name="newssdk_news_native_webview_apull_divider" format="color|reference"></attr>
+        <attr name="newssdk_news_native_webview_ad_divider" format="color|reference"></attr>
+        <!-- 视频详情页 -->
+        <attr name="newssdk_news_video_adapter_bg" format="color|reference"></attr>
+        <attr name="newssdk_news_video_header_title_text" format="color|reference"></attr>
+        <attr name="newssdk_news_video_header_divider" format="color|reference"></attr>
+        <!-- 评论详情页 -->
+        <attr name="newssdk_news_comment_info_bg" format="color|reference"></attr>
+        <attr name="newssdk_news_comment_info_adapter_bg" format="color|reference"></attr>
+        <!-- 新闻详情页进度条 -->
+        <attr name="newssdk_webview_progress_drawable" format="reference"></attr>
+        <!-- 视频播放器进度条 -->
+        <attr name="newssdk_videoplayer_progress_drawable" format="reference"></attr>
+        <!-- 众媒号的添加图标 -->
+        <attr name="newssdk_media_news_19_icon" format="reference"></attr>
+    </declare-styleable>
+
+
+</resources>

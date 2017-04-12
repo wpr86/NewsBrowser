@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/commentlist_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/news_comment_bg" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <com.qihoo360.newssdk.ui.common.CommonTitleBar
+            android:id="@+id/commentlist_title_bar"
+            android:layout_width="fill_parent"
+            android:layout_height="46dp"/>
+
+        <View
+            android:id="@+id/commentlist_divider1"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#e7e7e7" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+
+            <com.qihoo360.newssdk.comment.CommentListView
+                android:id="@+id/commentlist_refreshlist"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:cacheColorHint="@color/transparent"
+                android:divider="@color/transparent"
+                android:dividerHeight="0dp"
+                android:listSelector="@color/transparent" />
+            <TextView
+            android:id="@+id/commentlist_typetip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/news_comment_bg"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:paddingTop="5dp"
+            android:textColor="@color/comment_commontext"
+			android:visibility="gone"            
+            android:textSize="16dp" />
+        </FrameLayout>
+        <LinearLayout
+            android:id="@+id/commentlist_bottombar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:orientation="vertical"
+            android:visibility="visible" >
+
+            <View
+                android:id="@+id/commentlist_divider"
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#c8c8c8" />
+
+            <LinearLayout
+                android:id="@+id/commentlist_box"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@color/news_comment_bg"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/commentlist_inputhinttext"
+                    android:layout_width="0dp"
+                    android:layout_height="32dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_weight="1"
+                    android:cursorVisible="false"
+                    android:background="@drawable/newssdk_hint_whitebg"
+                    android:gravity="center_vertical"
+                    android:hint="写评论..."
+                    android:paddingLeft="13dp"
+                    android:textColor="#ff989898"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/commentlist_zanbtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="15dp"
+                    android:drawableLeft="@drawable/newssdk_comment_zan_selector"
+                    android:drawablePadding="4dp"
+                    android:gravity="center_vertical"
+                    android:scaleType="centerInside"
+                    android:text="赞"
+                    android:textColor="@color/comment_commontext"
+                    android:textSize="12dp"
+                    android:visibility="gone" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    
+    <LinearLayout android:id="@+id/commentlist_loading"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"
+         android:layout_gravity="center"
+         android:gravity="center_vertical"
+         android:visibility="gone"
+         >
+         <TextView android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textSize="14sp"
+             android:textColor="#9a9a9a"
+             android:text="@string/newssdk_tip_loading"
+             android:layout_marginRight="7dp"/>
+         <com.qihoo360.newssdk.video.widget.AutoRotateImageView android:layout_width="16dp"
+             android:layout_height="16dp"
+             android:scaleType="centerInside"
+             android:src="@drawable/newssdk_icon_list_loading_pass"/>
+     </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/news_root_layout_1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/cantiner_padding_left"
+    android:paddingTop="11dp" >
+
+    <TextView
+        android:id="@+id/news_title_1"
+        style="@style/NewsTitle"
+		android:layout_marginRight="@dimen/cantiner_padding_right"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+		android:layout_marginTop="-10dp">
+
+        <LinearLayout
+            android:id="@+id/news_display_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+			android:layout_marginTop="4dp">
+
+        	<ImageView
+	            android:id="@+id/news_fromicon_1"
+	            style="@style/NewsFromIcon"
+	            android:layout_gravity="center_vertical" />
+
+	        <TextView
+	            android:id="@+id/news_source_1"
+	            style="@style/NewsSource" />
+
+	        <TextView
+	            android:id="@+id/news_comment_1"
+	            style="@style/NewsComment" />
+
+	        <TextView
+	            android:id="@+id/news_time_1"
+	            style="@style/NewsTime" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/news_ignore_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+			android:layout_marginLeft="-21dp"
+            android:gravity="right|center_vertical" >
+            
+            <ImageView
+			    android:layout_width="18.7dp"
+			    android:layout_height="13.3dp"
+				android:layout_marginLeft="30dp"
+			    android:layout_marginRight="18.7dp"
+			    android:layout_marginTop="20dp"
+			    android:layout_marginBottom="16dp"
+			    android:background="@drawable/newssdk_icon_close_1"
+			    android:layout_gravity="right|center_vertical" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

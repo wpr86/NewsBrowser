@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+    >
+
+    <TextView
+        android:id="@+id/comm_reply_username_and_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left|center_vertical"
+        android:textColor="#3e3e3e"
+        android:textSize="15dip"
+        android:layout_marginLeft="64dip"
+        android:includeFontPadding="false"
+        android:layout_marginRight="12dip"
+        android:paddingLeft="8dp"
+        android:paddingTop="8dip"
+        android:background="#fafafa"
+        />
+
+    <View
+        android:id="@+id/comm_reply_inner_block"
+        android:layout_width="match_parent"
+        android:layout_height="8dip"
+        android:layout_below="@id/comm_reply_username_and_content"
+        android:background="#fafafa"
+        android:layout_marginLeft="64dip"
+        android:layout_marginRight="12dip"
+        android:visibility="gone"
+        />
+
+    <View
+        android:id="@+id/comm_reply_block"
+        android:layout_below="@id/comm_reply_inner_block"
+        android:layout_width="match_parent"
+        android:layout_height="15dip"
+        android:background="@null"
+        android:visibility="gone"
+        />
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <LinearLayout
+        android:id="@+id/title_parent"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="@dimen/cantiner_padding_left"
+		android:layout_marginRight="@dimen/cantiner_padding_right"
+		android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/container_news_19_title_parent_image"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:background="@drawable/newssdk_icon_add_zhongmei"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/container_news_19_title_parent_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="@color/common_font_color_5"
+            android:layout_marginLeft="6dp"
+            android:text="@string/add_zhongmei"
+            android:singleLine="true"
+            android:ellipsize="end" />
+    </LinearLayout>
+</merge>

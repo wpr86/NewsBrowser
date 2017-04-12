@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white" >
+
+    <RelativeLayout 
+        android:id="@+id/rl_title"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        >
+        
+        <ImageView 
+            android:id="@+id/iv_city_list_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/newssdk_back_button_image_detail"/>
+        
+        <TextView 
+            android:id="@+id/tv_city_list_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="#2c2c2c"
+            android:textSize="16dp"
+            />
+    </RelativeLayout>
+    
+    <com.qihoo360.newssdk.ui.common.PinnedHeaderListView
+        android:id="@+id/pinnedListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/rl_title"
+         >
+    </com.qihoo360.newssdk.ui.common.PinnedHeaderListView>
+
+    <com.qihoo360.newssdk.ui.common.LetterSelectView
+        android:id="@+id/letter"
+        android:layout_width="50dp"
+        android:layout_height="match_parent" 
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_alignParentRight="true"/>
+</RelativeLayout>

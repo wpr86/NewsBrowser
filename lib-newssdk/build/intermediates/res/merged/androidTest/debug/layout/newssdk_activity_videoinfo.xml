@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 视频详情页布局 -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+
+    <LinearLayout
+        android:id="@+id/vinfo_maincontainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:id="@+id/vinfo_thumbcontainer"
+            android:layout_height="@dimen/videoinfo_videoheight"
+            android:background="#000000"
+             >
+
+            <ImageView
+                android:id="@+id/vinfo_playbtn"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:scaleType="centerInside"
+                android:src="@drawable/newssdk_ic_videoplay" />
+        </FrameLayout>
+		<com.qihoo360.newssdk.video.view.SimpleRefreshListView
+            android:id="@+id/vinfo_listview"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:divider="@null"
+            android:dividerHeight="0dp"
+            android:listSelector="@android:color/transparent"
+            android:cacheColorHint="@android:color/transparent" >
+        </com.qihoo360.newssdk.video.view.SimpleRefreshListView>	
+        
+        <include android:id="@+id/vinfo_commentbar"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            layout="@layout/newssdk_view_commentbar"
+            ></include>
+    </LinearLayout>
+    <FrameLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/vinfo_videocontainer"
+        ></FrameLayout>
+    <ImageView
+                android:id="@+id/vinfo_closebtn"
+                android:layout_width="46dp"
+                android:layout_height="46dp"
+                android:layout_gravity="top|left"
+                android:background="@drawable/newssdk_common_title_icon_bg"
+                android:scaleType="centerInside"
+                android:src="@drawable/newssdk_common_title_bar_back"
+                 />
+
+</FrameLayout>

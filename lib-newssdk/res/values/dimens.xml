@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 新闻门户 -->
+    <dimen name="news_portal_title_bar_text">15dp</dimen>
+    <dimen name="news_portal_title_bar_text_focus">19dp</dimen>
+    <dimen name="news_portal_title_bar_interval">16dp</dimen>
+    <dimen name="dimen_5dp">5dp</dimen>
+    <dimen name="common_15sp">15dp</dimen>
+
+    <!--videoInfo  -->
+    <dimen name="videoinfo_videoheight">202dp</dimen>
+    <dimen name="news_titlebar_height">42dp</dimen>
+
+    <dimen name="cantiner_padding_left">15dp</dimen>
+    <dimen name="cantiner_padding_right">15dp</dimen>
+
+    <!-- 应用详情页 -->
+    <dimen name="appinfo_title_height">42dp</dimen>
+    <dimen name="download_text_size">15sp</dimen>
+    <!--appinfo  -->
+    <dimen name="app_preview_image_item_height_p">225dp</dimen>
+    <dimen name="app_preview_image_item_width_p">127dp</dimen>
+    <dimen name="app_info_loading_margin_top">277dp</dimen>
+    <dimen name="app_info_title_text_size">12dp</dimen>
+    <dimen name="app_info_content_text_size">15dp</dimen>
+    <dimen name="app_info_content_text_size_small">12dp</dimen>
+    <dimen name="oval_drawable_shadow_height">2dip</dimen>
+    <dimen name="tool_bar_iconsize">36dp</dimen>
+    <dimen name="app_info_tag_padding_left">14dp</dimen>
+    <dimen name="app_info_tag_padding_right">14dp</dimen>
+    <dimen name="app_info_parent_marging">7dp</dimen>
+    <dimen name="app_info_tag_marging_right">5dp</dimen>
+    <dimen name="app_info_header_divider">6dp</dimen>
+    <dimen name="app_info_download_btn_size">82dp</dimen>
+    <dimen name="app_info_download_inner_margin">20dp</dimen>
+    <!-- appinfo -->
+
+    <!-- 默认的行间距，后缀代表字号 -->
+    <!-- 默认的高度/宽度 -->
+    <!-- 列表行的高度 -->
+    <dimen name="common_list_row_height_1">72dp</dimen>
+    <dimen name="common_list_row_height_3">62dp</dimen>
+    <!-- titlebar的高度 -->
+    <dimen name="common_titlebar_content_height">56dp</dimen>
+    <!-- bottom btn bar的高度 -->
+    <dimen name="common_btn_bar_height">76dp</dimen>
+    <dimen name="common_btn_bar2_height">48dp</dimen>
+    <!-- tab的高度 -->
+    <!-- toparea -->
+    <!-- 默认的分隔线宽度 -->
+    <dimen name="common_divider_width">1px</dimen>
+    <!-- list row的左右间距 -->
+    <dimen name="common_list_row_padding_lr">18dp</dimen>
+    <!-- dialog圆角 -->
+    <dimen name="common_dialog_bg_radius">5dp</dimen>
+    <!-- pop window圆角 -->
+    <dimen name="common_pop_bg_radius">2dp</dimen>
+
+    <dimen name="common_font_size_c">18dp</dimen>
+    <dimen name="common_font_size_d">16dp</dimen>
+    <dimen name="common_font_size_d_dp">17dp</dimen>
+    <dimen name="common_font_size_e">15dp</dimen>
+    <dimen name="common_font_size_f">13dp</dimen>
+    <dimen name="common_font_size_f_dp">13dp</dimen>
+    <dimen name="common_font_size_g">11dp</dimen>
+    <!-- end of appinfo -->
+</resources>

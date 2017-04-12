@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/newssdk_common_btn_5_disabled" android:state_enabled="false" />
+    <item android:drawable="@drawable/newssdk_common_btn_5_normal"/>
+
+</selector>
