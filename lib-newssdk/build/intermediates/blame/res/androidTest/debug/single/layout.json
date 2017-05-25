@@ -1,11 +1,11 @@
 [
     {
-        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\newssdk_page_news_imagelist.xml",
-        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\layout\\newssdk_page_news_imagelist.xml"
-    },
-    {
         "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\newssdk_layout_webview.xml",
         "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\layout\\newssdk_layout_webview.xml"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\newssdk_page_news_imagelist.xml",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\layout\\newssdk_page_news_imagelist.xml"
     },
     {
         "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\newssdk_container_apull_app_51.xml",
@@ -28,12 +28,12 @@
         "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\layout\\newssdk_view_videoinfo_header.xml"
     },
     {
-        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\newssdk_container_news_11.xml",
-        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\layout\\newssdk_container_news_11.xml"
-    },
-    {
         "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\newssdk_container_apull_mv_506.xml",
         "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\layout\\newssdk_container_apull_mv_506.xml"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\newssdk_container_news_11.xml",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\layout\\newssdk_container_news_11.xml"
     },
     {
         "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\newssdk_container_news_25.xml",
@@ -44,12 +44,12 @@
         "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\layout\\newssdk_container_apull_app_20.xml"
     },
     {
-        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\newssdk_container_news_8.xml",
-        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\layout\\newssdk_container_news_8.xml"
-    },
-    {
         "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\newssdk_container_apull_app_49.xml",
         "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\layout\\newssdk_container_apull_app_49.xml"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\newssdk_container_news_8.xml",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\layout\\newssdk_container_news_8.xml"
     },
     {
         "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\newssdk_layout_listview_footer.xml",

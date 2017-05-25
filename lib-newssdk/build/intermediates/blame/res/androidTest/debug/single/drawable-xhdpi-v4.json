@@ -676,12 +676,12 @@
         "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_ic_replay.png"
     },
     {
-        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_bury_normal_white.png",
-        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_bury_normal_white.png"
-    },
-    {
         "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_icon_videoshare.png",
         "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_icon_videoshare.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_bury_normal_white.png",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\newssdk_bury_normal_white.png"
     },
     {
         "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\newssdk_img_faillogo.png",

@@ -16,12 +16,12 @@
         "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\newssdk_common_close1_normal.png"
     },
     {
-        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\newssdk_share_button_weibo.xml",
-        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\newssdk_share_button_weibo.xml"
-    },
-    {
         "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\newssdk_sharedialog_link_normal.png",
         "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\newssdk_sharedialog_link_normal.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\newssdk_share_button_weibo.xml",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\newssdk_share_button_weibo.xml"
     },
     {
         "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\newssdk_sharedialog_browser_normal.png",
@@ -36,12 +36,12 @@
         "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\newssdk_common_close1_pressed.png"
     },
     {
-        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\newssdk_share_button_timeline.xml",
-        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\newssdk_share_button_timeline.xml"
-    },
-    {
         "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\newssdk_sharedialog_whatsapp_normal.png",
         "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\newssdk_sharedialog_whatsapp_normal.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\newssdk_share_button_timeline.xml",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\newssdk_share_button_timeline.xml"
     },
     {
         "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\newssdk_sharedialog_qq_pressed.png",
@@ -88,20 +88,20 @@
         "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\newssdk_sharedialog_qqzone_pressed.png"
     },
     {
-        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\newssdk_share_button_qq.xml",
-        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\newssdk_share_button_qq.xml"
-    },
-    {
         "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\newssdk_sharedialog_qqzone_normal.png",
         "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\newssdk_sharedialog_qqzone_normal.png"
     },
     {
-        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\newssdk_share_button_cancel.xml",
-        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\newssdk_share_button_cancel.xml"
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\newssdk_share_button_qq.xml",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\newssdk_share_button_qq.xml"
     },
     {
         "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\newssdk_sharedialog_whatsapp_pressed.png",
         "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\newssdk_sharedialog_whatsapp_pressed.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\newssdk_share_button_cancel.xml",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\newssdk_share_button_cancel.xml"
     },
     {
         "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\newssdk_share_button_text.xml",
@@ -124,12 +124,12 @@
         "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\newssdk_share_button_link.xml"
     },
     {
-        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\newssdk_share_button_qqzone.xml",
-        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\newssdk_share_button_qqzone.xml"
-    },
-    {
         "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\newssdk_sharedialog_text_pressed.png",
         "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\newssdk_sharedialog_text_pressed.png"
+    },
+    {
+        "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\newssdk_share_button_qqzone.xml",
+        "source": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\newssdk_share_button_qqzone.xml"
     },
     {
         "merged": "E:\\anroid-studio\\NewsBrowser\\lib-newssdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\newssdk_share_button_wechat.xml",
